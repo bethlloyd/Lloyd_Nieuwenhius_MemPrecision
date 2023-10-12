@@ -1,0 +1,2502 @@
+sub,run,cat_cond,trial_type,picture,old,response_old,target_pos,response_pos,dot_resp_loc,cat_corr,TN_corr,TN_rt,feedback_type,trial,SP_timeseries,FB_timeseries,SP_peak_response,FB_peak_response,preStim_bl,anticipation
+003,1,1,csp,18a.png,1,1,320,316,320,1,1,294,pos_feedback_onset,1,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.341035,
+003,1,1,csm,53b.png,1,1,108,119,110,1,0,442,neu_feedback_onset,2,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.153955000000001,
+003,1,1,csm,44b.png,1,1,148,130,148,1,1,356,neu_feedback_onset,3,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.237005000000001,
+003,1,1,csm,52b.png,1,1,308,316,308,1,1,379,neu_feedback_onset,4,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.842524999999999,
+003,1,1,csm,41b.png,1,1,56,50,55,1,1,468,neu_feedback_onset,5,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.880665000000001,
+003,1,1,csm,33b.png,1,1,256,248,255,1,0,333,neu_feedback_onset,6,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.401940000000001,
+003,1,1,csp,27a.png,1,1,96,44,95,1,0,682,neg_feedback_onset,7,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.112920000000001,
+003,1,1,csp,41a.png,1,1,116,126,116,1,1,387,pos_feedback_onset,8,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.1804250000000005,
+003,1,1,csp,26a.png,1,1,80,246,79,1,1,302,pos_feedback_onset,9,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.381285,
+003,1,1,csp,53a.png,1,1,252,251,251,1,1,284,pos_feedback_onset,10,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.194555000000002,
+003,1,1,csp,38a.png,1,1,280,243,280,1,1,630,neg_feedback_onset,11,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.273135,
+003,1,1,csp,6a.png,1,1,4,358,3,1,1,301,pos_feedback_onset,12,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.6983500000000005,
+003,1,1,csm,7b.png,1,1,68,45,67,1,1,411,neu_feedback_onset,13,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.827985,
+003,1,1,csm,27b.png,1,1,28,37,29,1,1,316,neu_feedback_onset,14,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.98126,
+003,2,1,csm,35b.png,1,1,260,235,259,1,0,NaN,neu_feedback_onset,1,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.438809999999999,
+003,2,1,csp,47a.png,1,0,208,89,208,1,1,330,pos_feedback_onset,2,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.239534999999999,
+003,2,1,csm,17b.png,1,1,40,32,39,1,1,259,neu_feedback_onset,3,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.271400000000001,
+003,2,1,csp,42a.png,1,1,232,233,234,1,0,348,neg_feedback_onset,4,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.138565,
+003,2,1,csp,8a.png,1,1,268,311,269,1,1,313,pos_feedback_onset,5,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.184320000000001,-0.14311499999999988
+003,2,1,csm,10b.png,1,1,156,134,156,1,1,335,neu_feedback_onset,6,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.167509999999999,
+003,2,1,csm,28b.png,1,1,36,39,35,1,1,496,neu_feedback_onset,7,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.642514999999999,
+003,2,1,csm,42b.png,1,1,44,39,44,1,1,361,neu_feedback_onset,8,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.93671,
+003,2,1,csp,34a.png,1,1,188,236,187,1,1,362,pos_feedback_onset,9,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.87365,
+003,2,1,csm,20b.png,1,1,100,43,100,1,1,576,neu_feedback_onset,10,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.043729999999999,
+003,2,1,csp,59a.png,1,1,220,233,221,1,1,339,pos_feedback_onset,11,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.714665000000001,0.10554500000000111
+003,2,1,csm,31b.png,1,1,296,307,296,1,1,426,neu_feedback_onset,12,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.8157000000000005,
+003,2,1,csp,55a.png,1,1,180,178,179,1,1,292,pos_feedback_onset,13,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.880995,0.26174500000000034
+003,2,1,csp,65a.png,1,1,144,238,145,1,1,422,pos_feedback_onset,14,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.693685,
+003,3,1,csm,46b.png,1,1,348,337,348,1,1,323,neu_feedback_onset,1,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.36209,
+003,3,1,csp,29a.png,1,1,76,70,74,1,1,349,pos_feedback_onset,2,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.299005,
+003,3,1,csp,31a.png,1,1,300,324,301,1,0,336,neg_feedback_onset,3,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.1835700000000005,
+003,3,1,csm,49b.png,1,1,228,233,229,1,1,397,neu_feedback_onset,4,"[ 1.6518107   1.56187545  1.45028913  1.31705172  1.16216324  0.98895462
+  0.80075679  0.60090068  0.39271724  0.18120287 -0.03197698 -0.24682229
+ -0.46000213 -0.67484744 -0.89135822 -1.10953447 -1.33104165 -1.55754523
+ -1.78571429 -2.01887974 -2.25204519 -2.48521065 -2.71504517 -2.94154875
+ -3.15805953 -3.36124657 -3.544448   -3.70433288 -3.83590482 -3.93083646
+ -3.98413143 -3.9957897  -3.96081488 -3.88087244 -3.75596237 -3.59108109
+ -3.38622858 -3.14973219 -2.88325739 -2.59180057 -2.28202361 -1.95892291
+ -1.62916034 -1.2977323  -0.9746316  -0.66318917 -0.37173235 -0.10359208
+  0.13623524  0.34608415  0.52595465  0.67418126  0.79742585  0.89568844
+  0.97229994  1.03225678  1.0772244   1.11219922  1.14051216  1.16216324
+  1.18214885  1.19713806  1.21212727  1.22545101  1.23877475  1.25209849
+  1.26375676  1.2770805   1.28873877  1.30206251  1.31372079  1.32704453
+  1.3387028   1.35036107  1.36368481  1.37534309  1.38866683  1.4003251
+  1.41364884  1.42530711  1.43863085  1.45028913  1.46361287  1.47527114
+  1.48692941  1.50025315  1.51191142  1.52523516  1.53689344  1.55021718
+  1.56187545  1.57519919  1.58685746  1.6001812   1.61183948  1.62516322
+  1.63682149  1.64847976  1.6618035   1.67346177  1.68678551  1.69844379
+  1.71176753  1.7234258   1.73674954  1.74840781  1.76173155  1.77338983
+  1.78671357  1.79837184  1.81169558  1.82501932  1.83834306  1.85333227
+  1.86832148  1.88497615  1.90496176  1.92661284  1.94992938  1.97824233
+  2.00988622  2.04319557  2.07983585  2.11647614  2.15145096  2.18309484
+  2.20974232  2.22639699  2.23305886  2.22806246  2.20807685  2.17310203
+  2.12480347  2.05985024  1.98157327  1.89163802  1.7900445   1.67845818
+  1.56020998  1.43529992  1.30539345  1.17215605  1.03725318  0.90068484
+  0.76245104  0.62421723  0.48598343  0.34608415  0.20785035  0.06795108
+ -0.07028273 -0.20851653 -0.34508487 -0.48165321 -0.61322514 -0.74313161
+ -0.86637621 -0.98295894 -1.09121433 -1.18781144 -1.27108482 -1.34269992
+ -1.39932582 -1.44595891 -1.4825992  -1.51257761 -1.53755962 -1.56087617
+ -1.58252725 -1.60584379 -1.6258294  -1.64414955 -1.65913875 -1.66913156
+ -1.6774589  -1.68578623 -1.70244091 -1.73408479 -1.79237616 -1.8823114
+ -2.0155488  -2.19708477 -2.42858475 -2.71171423 -3.0414768  -3.40954513
+ -3.80759187 -4.22229328 -4.64032563 -5.04836518 -5.42975724 -5.77450902
+ -6.06763131 -6.30246223 -6.47233992 -6.5755989  -6.61390466 -6.58725717
+ -6.50731473 -6.38240467 -6.22251979 -6.03931836 -5.84445866 -5.64959896
+ -5.46140112 -5.28652703 -5.12830762 -4.98507741 -4.85683641 -4.74025368
+ -4.62533642 -4.5087537  -4.3805127  -4.23395155 -4.06407387 -3.86588323
+ -3.63937965 -3.38456311 -3.10476457 -2.80664588 -2.49686892 -2.18376103
+ -1.88064593 -1.59585099 -1.33770352 -1.11453087 -0.93299491 -0.79476111
+ -0.69816399 -0.64486903 -0.62654888 -0.63820716 -0.67484744 -0.7281424
+ -0.79309564 -0.86304527 -0.93299491 -1.00127908 -1.06290138 -1.11952727
+ -1.16782583 -1.21279346 -1.25109921 -1.28607403 -1.32104884 -1.3543582
+ -1.38766755 -1.42430783 -1.46261358 -1.50258481 -1.54422149 -1.58752365
+ -1.63249127 -1.67912436 -1.72575745 -1.77405601 -1.82235457 -1.87065313
+ -1.91895169 -1.96725025]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",1.736124990007196,,6.00432,
+003,3,1,csp,56a.png,1,1,60,64,60,1,1,542,neg_feedback_onset,5,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.942789999999999,
+003,3,1,csm,56b.png,1,0,316,320,316,1,1,486,neu_feedback_onset,6,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.15141,0.1931250000000002
+003,3,1,csm,5b.png,1,1,164,152,163,1,1,345,neu_feedback_onset,7,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.887829999999999,
+003,3,1,csp,7a.png,1,1,84,73,84,1,1,330,pos_feedback_onset,8,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.8597150000000005,0.28183500000000095
+003,3,1,csm,9b.png,1,1,344,343,343,1,1,390,neu_feedback_onset,9,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[-7.75723122e-01 -6.99500584e-01 -6.23278046e-01 -5.47055507e-01
+ -4.70832969e-01 -3.94610431e-01 -3.18387893e-01 -2.40577386e-01
+ -1.61178909e-01 -8.01924619e-02  3.96992386e-03  8.97202792e-02
+  1.80234543e-01  2.72336777e-01  3.69202919e-01  4.69245000e-01
+  5.72463020e-01  6.78856980e-01  7.85250939e-01  8.90056929e-01
+  9.90099010e-01  1.08378921e+00  1.16477566e+00  1.22670647e+00
+  1.26640571e+00  1.27752150e+00  1.25687789e+00  1.20129896e+00
+  1.11396063e+00  9.94862919e-01  8.50357690e-01  6.86796827e-01
+  5.10532208e-01  3.32679619e-01  1.58002970e-01 -1.03218020e-02
+ -1.65942817e-01 -3.08860076e-01 -4.39073579e-01 -5.58171294e-01
+ -6.66153223e-01 -7.66195304e-01 -8.61473477e-01 -9.50399771e-01
+ -1.03773810e+00 -1.12348845e+00 -1.20765084e+00 -1.29181322e+00
+ -1.37438764e+00 -1.45696206e+00 -1.53953647e+00 -1.62211089e+00
+ -1.70468530e+00 -1.78725972e+00 -1.86983414e+00 -1.95240855e+00
+ -2.03498297e+00 -2.11755739e+00 -2.20171977e+00 -2.28429419e+00
+ -2.36686860e+00 -2.44944302e+00 -2.53360541e+00 -2.61935576e+00
+ -2.70510612e+00 -2.79403241e+00 -2.88613464e+00 -2.98300079e+00
+ -3.08621881e+00 -3.19737667e+00 -3.31965033e+00 -3.45303977e+00
+ -3.60230891e+00 -3.76586977e+00 -3.94689830e+00 -4.14539449e+00
+ -4.35977038e+00 -4.59002596e+00 -4.83457327e+00 -5.09023637e+00
+ -5.35860322e+00 -5.63332195e+00 -5.91439256e+00 -6.20181505e+00
+ -6.49082551e+00 -6.78142393e+00 -7.07361033e+00 -7.36420875e+00
+ -7.65321921e+00 -7.94064170e+00 -8.22171231e+00 -8.49801901e+00
+ -8.76479789e+00 -9.02046099e+00 -9.26500830e+00 -9.49208794e+00
+ -9.70328789e+00 -9.89543221e+00 -1.00685209e+01 -1.02209660e+01
+ -1.03559434e+01 -1.04734531e+01 -1.05766711e+01 -1.06655974e+01
+ -1.07449959e+01 -1.08148666e+01 -1.08783854e+01 -1.09355523e+01
+ -1.09863673e+01 -1.10324184e+01 -1.10721176e+01 -1.11007011e+01
+ -1.11149928e+01 -1.11134048e+01 -1.10879973e+01 -1.10340064e+01
+ -1.09498440e+01 -1.08291583e+01 -1.06767132e+01 -1.04956847e+01
+ -1.02940126e+01 -1.00875765e+01 -9.89066830e+00 -9.72393149e+00
+ -9.60324581e+00 -9.54607891e+00 -9.56195860e+00 -9.66041271e+00
+ -9.83826530e+00 -1.00939284e+01 -1.04146982e+01 -1.07910470e+01
+ -1.12070950e+01 -1.16501386e+01 -1.21042978e+01 -1.25584571e+01
+ -1.30030886e+01 -1.34286644e+01 -1.38320087e+01 -1.42067695e+01]",,0.28666820170390944,6.00165,
+003,3,1,csm,3b.png,1,1,64,59,64,1,1,513,neu_feedback_onset,10,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.565644999999999,
+003,3,1,csp,19a.png,1,1,20,27,19,1,1,342,pos_feedback_onset,11,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.319875,
+003,3,1,csp,14a.png,1,1,288,242,288,1,1,372,pos_feedback_onset,12,"[-1.99065938e+00 -1.77088012e+00 -1.49528390e+00 -1.17956925e+00
+ -8.34201839e-01 -4.74880190e-01 -1.17302820e-01  2.21087471e-01
+  5.28080725e-01  7.86234143e-01  9.85082047e-01  1.11590304e+00
+  1.16997571e+00  1.14206723e+00  1.03043332e+00  8.35073979e-01
+  5.64710602e-01  2.26320311e-01 -1.60909816e-01 -5.81281261e-01
+ -1.01037410e+00 -1.43074555e+00 -1.82146424e+00 -2.16508737e+00
+ -2.45289354e+00 -2.67790564e+00 -2.84012367e+00 -2.94129190e+00
+ -2.99013174e+00 -2.99536458e+00 -2.96571182e+00 -2.90815058e+00
+ -2.83140227e+00 -2.74244400e+00 -2.64476433e+00 -2.54185181e+00
+ -2.43545074e+00 -2.32556111e+00 -2.21741576e+00 -2.10578185e+00
+ -1.99589222e+00 -1.88600259e+00 -1.77436868e+00 -1.66447905e+00
+ -1.55284514e+00 -1.44295551e+00 -1.33132160e+00 -1.22143197e+00
+ -1.10979806e+00 -9.99908425e-01 -8.88274515e-01 -7.78384884e-01
+ -6.66750974e-01 -5.56861343e-01 -4.45227432e-01 -3.35337802e-01
+ -2.23703891e-01 -1.13814260e-01 -2.18034982e-03  1.07709281e-01
+  2.19343191e-01  3.29232822e-01  4.40866733e-01  5.50756363e-01
+  6.62390274e-01  7.72279905e-01  8.82169535e-01  9.93803446e-01
+  1.10369308e+00  1.21532699e+00  1.32521662e+00  1.43685053e+00
+  1.54674016e+00  1.65837407e+00  1.76826370e+00  1.87989761e+00
+  1.98978724e+00  2.10142115e+00  2.21131078e+00  2.32294469e+00
+  2.43283432e+00  2.54446823e+00  2.65435787e+00  2.76424750e+00
+  2.87413713e+00  2.98228248e+00  3.08868355e+00  3.19334034e+00
+  3.29276429e+00  3.38521112e+00  3.47068084e+00  3.54394059e+00
+  3.60324610e+00  3.64510882e+00  3.66778446e+00  3.66604018e+00
+  3.64336454e+00  3.59801327e+00  3.53173063e+00  3.44974948e+00
+  3.35555837e+00  3.25787869e+00  3.16194330e+00  3.07124075e+00
+  2.99449244e+00  2.93344264e+00  2.89157993e+00  2.87239285e+00
+  2.87413713e+00  2.89681276e+00  2.93867548e+00  2.99623672e+00
+  3.06775219e+00  3.15147762e+00  3.24218018e+00  3.33811557e+00
+  3.43928380e+00  3.54219631e+00  3.64685310e+00  3.75325417e+00
+  3.86139952e+00  3.96780059e+00  4.07594594e+00  4.18234702e+00
+  4.28874809e+00  4.39689344e+00  4.50329451e+00  4.60795130e+00
+  4.71260809e+00  4.81377632e+00  4.91320027e+00  5.00564711e+00
+  5.09111682e+00  5.16437657e+00  5.22193781e+00  5.26031196e+00
+  5.27601048e+00  5.26031196e+00  5.21321641e+00  5.12774670e+00
+  5.00564711e+00  4.84342908e+00  4.64283690e+00  4.40735912e+00
+  4.14222858e+00  3.85093384e+00  3.54394059e+00  3.22299310e+00
+  2.89855704e+00  2.57586527e+00  2.26189490e+00  1.95839020e+00
+  1.67232831e+00  1.40370921e+00  1.15078863e+00  9.11822293e-01
+  6.85065912e-01  4.61798091e-01  2.36785990e-01  8.28532930e-03
+ -2.30681010e-01 -4.78368749e-01 -7.36522168e-01 -9.98164145e-01
+ -1.25806184e+00 -1.50400530e+00 -1.72727312e+00 -1.91565535e+00
+ -2.06043058e+00 -2.15113313e+00 -2.18427444e+00 -2.15811025e+00
+ -2.07264053e+00 -1.93658671e+00 -1.75692588e+00 -1.54412374e+00
+ -1.30864596e+00 -1.06270250e+00 -8.15014761e-01 -5.70815582e-01
+ -3.38826361e-01 -1.20791380e-01  8.32893629e-02  2.71671587e-01
+  4.44355292e-01  6.01340479e-01  7.44371427e-01  8.75192416e-01
+  9.92059166e-01  1.09497168e+00  1.18916279e+00  1.27288822e+00
+  1.34789226e+00  1.41591917e+00  1.48045752e+00  1.53976304e+00
+  1.59557999e+00  1.64965267e+00  1.70372535e+00  1.75430946e+00
+  1.80489358e+00  1.85373341e+00  1.89908469e+00  1.94443597e+00
+  1.98455440e+00  2.02292856e+00  2.05606988e+00  2.08746691e+00
+  2.11363111e+00  2.13630675e+00  2.15549383e+00  2.17468091e+00
+  2.19212370e+00  2.21305506e+00  2.23747498e+00  2.26887202e+00
+  2.30899045e+00  2.36131885e+00  2.42760148e+00  2.50609408e+00
+  2.59854091e+00  2.70319770e+00  2.81308733e+00  2.92646552e+00
+  3.03461087e+00  3.13054626e+00  3.20903886e+00  3.26311153e+00
+  3.28753145e+00  3.28229861e+00  3.24566874e+00  3.18287466e+00
+  3.09391639e+00  2.98577104e+00  2.86367145e+00  2.73110618e+00
+  2.59679663e+00  2.45899852e+00  2.32294469e+00  2.19037942e+00
+  2.06304700e+00  1.93920313e+00  1.82059210e+00  1.70895819e+00
+  1.60604567e+00  1.51185456e+00  1.43161769e+00  1.36533505e+00
+  1.31475094e+00  1.27986534e+00  1.26242254e+00  1.26067826e+00
+  1.27288822e+00  1.29730814e+00  1.33044946e+00  1.37231217e+00
+  1.41940773e+00  1.47173613e+00  1.52580880e+00  1.58162576e+00]","[-2.23540764 -2.06916173 -1.89777419 -1.72638665 -1.55499912 -1.38361158
+ -1.20536854 -1.01684225 -0.80603558 -0.56780691 -0.29530073  0.01491072
+  0.36454129  0.75016325  1.16320721  1.60024543  2.0475669   2.49831612
+  2.94392371  3.3758203   3.79057814  4.18648335  4.56010818  4.91488038
+  5.25251383  5.5747224   5.88664771  6.19000365  6.48821796  6.78300453
+  7.07607721  7.37086378  7.66393646  7.95700915  8.24494021  8.5243019
+  8.78995258  9.03675063  9.2544128   9.44293909  9.59376012  9.71030365
+  9.79085579  9.8388443   9.8594108   9.8594108   9.84227205  9.81142229
+  9.77200316  9.72572853  9.67259839  9.61261275  9.54577161  9.47378885
+  9.39495058  9.31097069  9.22356304  9.13101377  9.03675063  8.93905973
+  8.84136884  8.74196407  8.6425593   8.54144065  8.44203588  8.34091723
+  8.23979859  8.14039381  8.03927517  7.93815652  7.83875175  7.7376331
+  7.63651446  7.53710969  7.43599104  7.33487239  7.23546762  7.13434898
+  7.03323033  6.93382556  6.83270691  6.73158827  6.63218349  6.53106485
+  6.4299462   6.33054143  6.22942278  6.12830414  6.02889937  5.92778072
+  5.82666207  5.7272573   5.62613866  5.52502001  5.42561524  5.32449659
+  5.22509182  5.12568705  5.0245684   4.92687751  4.82747274  4.72978184
+  4.63380482  4.5378278   4.44356466  4.35101539  4.26017999  4.1693446
+  4.08193695  3.99624319  3.91054942  3.82656952  3.74430351  3.66203749
+  3.58148535  3.49921933  3.42038106  3.33982892  3.26270453  3.18558014
+  3.1118835   3.04161461  2.97820122  2.92507108  2.88565195  2.86508545
+  2.86679932  2.89764908  2.95934859  3.05189786  3.17701076  3.32611792
+  3.49579158  3.67232074  3.84370828  3.99967094  4.12649771  4.22076086
+  4.27560487  4.29274362]",3.94547381181836,8.636217956957726,5.7330250000000005,
+003,3,1,csm,1b.png,1,1,312,307,311,1,1,544,neu_feedback_onset,13,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.092084999999999,
+003,3,1,csp,36a.png,1,1,332,240,331,1,1,305,pos_feedback_onset,14,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.0261249999999995,
+003,4,1,csp,62a.png,1,1,168,172,168,1,1,332,pos_feedback_onset,1,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,3.2718300000000005,0.02012999999999998
+003,4,1,csp,48a.png,1,1,152,207,153,1,1,301,pos_feedback_onset,2,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.189935,
+003,4,1,csm,13b.png,1,0,248,115,247,1,1,276,neu_feedback_onset,3,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.052834999999999,0.6369199999999999
+003,4,1,csp,11a.png,1,1,328,323,328,1,1,289,pos_feedback_onset,4,"[-0.47261119 -0.35943427 -0.25991664 -0.17405829 -0.09405392 -0.01600087
+  0.0640035   0.14205654  0.22010959  0.29035733  0.34499446  0.37621568
+  0.37426435  0.3332865   0.25328213  0.13425124 -0.0179522  -0.19552288
+ -0.38089886 -0.56237219 -0.72238093 -0.8472658  -0.92727017 -0.95458874
+ -0.92531885 -0.84531448 -0.71457563 -0.54285893 -0.33211571 -0.08819994
+  0.18303439  0.48353861  0.80941008  1.16455143  1.54896268  1.96459514
+  2.40949749  2.88171842  3.37735525  3.89250535  4.42131473  4.95402676
+  5.48673879  6.01164551  6.52289296  7.01462714  7.47904276  7.91028583
+  8.30055105  8.64593578  8.94448867  9.19035577  9.3874397   9.53574049
+  9.6411121   9.71135984  9.75038636  9.7679483   9.76989962  9.76014299
+  9.74453238  9.72501912  9.70355454  9.68013862  9.65867403  9.63525812
+  9.61379353  9.59232895  9.56891303  9.54744845  9.52598386  9.50451927
+  9.48305468  9.4615901   9.44012551  9.41866092  9.39719633  9.37378042
+  9.35231583  9.33085125  9.30938666  9.28792207  9.26645748  9.2449929
+  9.22352831  9.20206372  9.18059914  9.15718322  9.13571863  9.11425405
+  9.09278946  9.07132487  9.04986029  9.0283957   9.00693111  8.98546652
+  8.96400194  8.94058602  8.91912143  8.89765685  8.87619226  8.85472767
+  8.83326309  8.8117985   8.79033391  8.76886932  8.74740474  8.72398882
+  8.70252424  8.68105965  8.65959506  8.63813047  8.61666589  8.5952013
+  8.57373671  8.55227212  8.53080754  8.50739162  8.48592704  8.46446245
+  8.44299786  8.42153327  8.40006869  8.3786041   8.35713951  8.33567492
+  8.31421034  8.29274575  8.26932984  8.24786525  8.22640066  8.20493607
+  8.18347149  8.1620069   8.14054231  8.11907773  8.09761314  8.07809988
+  8.05663529  8.03712203  8.01956009  8.00199816  7.98638755  7.97272827
+  7.96102031  7.94931235  7.94150705  7.93370174  7.92589644  7.91613981
+  7.9005292   7.87906461  7.84784339  7.80101157  7.73856913  7.66051609
+  7.56685243  7.46343215  7.35806054  7.26439688  7.19610047  7.1687819
+  7.1980518   7.2956181   7.46928613  7.71905587  8.0351707   8.40592267
+  8.80594452  9.20596637  9.57281569  9.87722256 10.08796578 10.18748341
+ 10.1640675  10.01576672  9.75428901  9.39914766  8.97766122  8.52105091
+  8.05663529  7.61368426  7.2136624   6.87022901  6.59509202  6.3843488
+  6.23995067  6.15018967  6.10921182  6.10530917  6.12872508  6.17360558
+  6.23409669  6.30239311  6.3765435   6.45459654  6.53655224  6.61850794
+  6.70046364  6.78241933  6.86632636  6.94828205  7.03218908  7.11414477
+  7.1980518   7.28195882  7.36391452  7.44782154  7.52977724  7.61368426
+  7.69563996  7.77954698  7.86150268  7.9454097   8.02931672  8.11127242
+  8.19517944  8.27713514  8.36104216  8.44299786  8.52690488  8.61081191
+  8.6927676   8.77667463  8.85863033  8.94253735  9.02449305  9.10840007
+  9.19230709  9.27426279  9.35816981  9.44012551  9.52403253  9.60598823
+  9.68989525  9.77380228  9.85575797  9.939665   10.02162069 10.10552772
+ 10.18748341 10.27139044 10.35334613 10.43725316 10.52116018 10.60311588
+ 10.6870229  10.7689786  10.85288562 10.93484132 11.01874834 11.10265536
+ 11.18461106 11.26851808 11.35047378 11.43438081 11.5163365  11.60024353
+ 11.68415055 11.76610625]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",10.935677600783189,,5.124720000000001,-0.5983150000000004
+003,4,1,csm,40b.png,1,1,272,232,272,1,1,302,neu_feedback_onset,5,"[ 1.72857355e-01  9.92246113e-02  2.24490071e-03 -1.09102174e-01
+ -2.29428852e-01 -3.51551451e-01 -4.66490367e-01 -5.67061919e-01
+ -6.44286503e-01 -6.89184517e-01 -6.89184517e-01 -6.37102821e-01
+ -5.23959825e-01 -3.47959610e-01 -1.03714413e-01  2.05183925e-01
+  5.69755800e-01  9.82817530e-01  1.43000175e+00  1.89694110e+00
+  2.36388045e+00  2.81824835e+00  3.24208560e+00  3.62461668e+00
+  3.95147423e+00  4.21547455e+00  4.40763805e+00  4.52796473e+00
+  4.56927090e+00  4.53694433e+00  4.43098502e+00  4.26037256e+00
+  4.03049473e+00  3.75392296e+00  3.44143279e+00  3.10559564e+00
+  2.75898297e+00  2.41057438e+00  2.07114539e+00  1.74428785e+00
+  1.43718543e+00  1.15163406e+00  8.91225581e-01  6.54164066e-01
+  4.42245439e-01  2.53673780e-01  8.84490879e-02 -5.70204780e-02
+ -1.86326759e-01 -2.97673834e-01 -3.98245386e-01 -4.89837334e-01
+ -5.72449681e-01 -6.47878344e-01 -7.21511088e-01 -7.91551990e-01
+ -8.59796971e-01 -9.28041953e-01 -9.94491014e-01 -1.06094007e+00
+ -1.12738914e+00 -1.19204228e+00 -1.25849134e+00 -1.32494040e+00
+ -1.38959354e+00 -1.45604260e+00 -1.52249166e+00 -1.58714480e+00
+ -1.65359386e+00 -1.71824700e+00 -1.78290014e+00 -1.84575736e+00
+ -1.90681866e+00 -1.96428812e+00 -2.01457390e+00 -2.05588007e+00
+ -2.08461480e+00 -2.09539032e+00 -2.08102296e+00 -2.03432902e+00
+ -1.94812483e+00 -1.81881855e+00 -1.63922650e+00 -1.41114459e+00
+ -1.13277690e+00 -8.11307116e-01 -4.52123003e-01 -6.95919219e-02
+  3.27306523e-01  7.24204968e-01  1.11032789e+00  1.47310384e+00
+  1.80355323e+00  2.09269644e+00  2.32975795e+00  2.50575817e+00
+  2.61351340e+00  2.64224813e+00  2.58657460e+00  2.44290095e+00
+  2.20763536e+00  1.88616557e+00  1.48926713e+00  1.02951146e+00
+  5.32041468e-01  1.66122652e-02 -4.89837334e-01 -9.65756285e-01
+ -1.39138946e+00 -1.75596133e+00 -2.05228823e+00 -2.28037014e+00
+ -2.44739075e+00 -2.56053375e+00 -2.63596241e+00 -2.67906450e+00
+ -2.70420739e+00 -2.71498292e+00 -2.71498292e+00 -2.70779923e+00
+ -2.68984003e+00 -2.65930938e+00 -2.61261544e+00 -2.54975822e+00
+ -2.46714588e+00 -2.36298249e+00 -2.24265581e+00 -2.10257400e+00
+ -1.94812483e+00 -1.78290014e+00 -1.60869585e+00 -1.42730787e+00
+ -1.24232805e+00 -1.05375639e+00 -8.65184733e-01 -6.71225312e-01
+ -4.75469970e-01 -2.76122787e-01 -6.60000808e-02  1.53102228e-01
+  3.88367822e-01  6.39796702e-01  9.10980707e-01  1.20551168e+00
+  1.52159370e+00  1.85563493e+00  2.20045167e+00  2.54706434e+00
+  2.88110557e+00  3.19000391e+00  3.45400423e+00  3.65694325e+00
+  3.78445361e+00  3.82037202e+00  3.75571888e+00  3.58690235e+00
+  3.31392243e+00  2.93857503e+00  2.47163568e+00  1.92747175e+00
+  1.32045060e+00  6.70327351e-01 -1.34694042e-03 -6.78408994e-01
+ -1.33751184e+00 -1.96428812e+00 -2.54796230e+00 -3.07596295e+00
+ -3.54649414e+00 -3.95775995e+00 -4.31335222e+00 -4.61865872e+00
+ -4.87906720e+00 -5.10535319e+00 -5.30110853e+00 -5.47351691e+00
+ -5.62257831e+00 -5.75188459e+00 -5.85604799e+00 -5.93327257e+00
+ -5.98176243e+00 -5.99612979e+00 -5.97457874e+00 -5.91710929e+00
+ -5.82731326e+00 -5.71057842e+00 -5.56870070e+00 -5.41065969e+00
+ -5.23825131e+00 -5.05686333e+00 -4.86829168e+00 -4.66714857e+00
+ -4.45343402e+00 -4.21816843e+00 -3.95955587e+00 -3.66861674e+00
+ -3.34175919e+00 -2.97898324e+00 -2.57669703e+00 -2.14028834e+00
+ -1.67155307e+00 -1.17587899e+00 -6.56857947e-01 -1.21673618e-01
+  4.26082154e-01  9.81021609e-01  1.54134883e+00  2.10167604e+00
+  2.65841142e+00  3.20975903e+00  3.74853520e+00  4.27294401e+00
+  4.77400585e+00  5.24633295e+00  5.68453757e+00  6.07784418e+00
+  6.42266093e+00  6.71180414e+00  6.94347789e+00  7.11588626e+00
+  7.22902926e+00  7.28829464e+00  7.29727424e+00  7.26494767e+00
+  7.19490677e+00  7.09613114e+00  6.97580446e+00  6.83751858e+00
+  6.68845717e+00  6.53221208e+00  6.37057923e+00  6.20355862e+00
+  6.03653800e+00  5.86772147e+00  5.69710902e+00  5.52829248e+00
+  5.35768003e+00  5.18706758e+00  5.01825104e+00  4.84763859e+00
+  4.67702614e+00  4.50641368e+00  4.33759715e+00  4.16698469e+00
+  3.99637224e+00  3.82575979e+00  3.65514733e+00  3.48633080e+00
+  3.31571835e+00  3.14510589e+00  2.97449344e+00  2.80567690e+00
+  2.63506445e+00  2.46445200e+00  2.29563546e+00  2.12681893e+00
+  1.95800240e+00  1.79277771e+00  1.63114485e+00  1.47310384e+00]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",5.071006209395339,,5.568175000000001,
+003,4,1,csp,51a.png,1,1,212,210,211,1,1,364,pos_feedback_onset,6,"[ 2.06328253  1.79946791  1.52595422  1.25244053  0.98474628  0.72675109
+  0.48039479  0.24761718  0.03035808 -0.17138251 -0.35566479 -0.52248874
+ -0.67185437 -0.80376169 -0.91627086 -1.01132172 -1.08891426 -1.15098829
+ -1.19560399 -1.22276138 -1.22858082 -1.20530306 -1.14904847 -1.04817818
+ -0.89493292 -0.67961363 -0.39640087 -0.03559558  0.39892263  0.90327411
+  1.46775982  2.07492141  2.7092404   3.34743901  3.97011911  4.55982239
+  5.09909052  5.58210406  6.00304357  6.36384886  6.66839957  6.92057531
+  7.13201497  7.30659818  7.45014437  7.56847299  7.65964422  7.7294775
+  7.77603302  7.8012506   7.80513022  7.79155153  7.76051452  7.71395899
+  7.65770441  7.59369056  7.52191747  7.44820456  7.37255183  7.29689911
+  7.22512602  7.16111217  7.1067974   7.06994094  7.05248262  7.0641215
+  7.11067702  7.19990844  7.33569538  7.52191747  7.76051452  8.0476069
+  8.37737518  8.73818047  9.1183839   9.50246696  9.87685095 10.22989699
+ 10.54608657 10.81960026 11.0426788  11.21338238 11.33559063 11.40930354
+ 11.43840074 11.43064149 11.39184522 11.32395175 11.23472033 11.12803059
+ 11.00776216 10.87585485 10.73424847 10.58488284 10.42775795 10.260934
+ 10.08247117  9.88848983  9.67511035  9.44039293  9.18045793  8.89724517
+  8.59463428  8.2784447   7.96225511  7.66158403  7.39776941  7.19020937
+  7.06218169  7.03114467  7.11843628  7.32793613  7.66352385  8.11938
+  8.67804626  9.31236524  9.98936012 10.67217444 11.3161925  11.8806782
+ 12.33265472 12.64302487 12.79627013 12.78851087 12.62944617 12.3442936
+ 11.9679698  11.54315066 11.1144519  10.72842903 10.42387833 10.23571643
+ 10.18140165 10.27063307 10.49953105 10.85645672 11.32201194 11.86903932
+ 12.47038147 13.09888102 13.7332     14.35006067 14.92812506 15.45575431
+ 15.91549009 16.29569352 16.58860534 16.7845265  16.87763754 16.86599866
+ 16.74960986 16.53623038 16.23361949 15.85341606 15.4111386  14.92424544
+ 14.41019488 13.88644526 13.3704549  12.87192285 12.40636763 11.97960868
+ 11.59940525 11.26963697 10.99030384 10.76140586 10.58100321 10.44521627
+ 10.35016542 10.2900312  10.260934   10.25317475 10.260934   10.27645251
+ 10.29779046 10.31718859 10.32882747 10.33076728 10.3191284  10.29197102
+ 10.24735531 10.18528128 10.10768874 10.01263788  9.90206852  9.77598065
+  9.63437427  9.47724938  9.30460599  9.11062465  8.89724517  8.65864812
+  8.3948335   8.1058013   7.7876719   7.44432493  7.07964001  6.69749677
+  6.30565446  5.91381215  5.5297291   5.16310436  4.81975739  4.50550762
+  4.2281143   3.98369781  3.77419796  3.59767494  3.44830931  3.32222144
+  3.21941132  3.13405953  3.06616607  3.01961054  2.99633278  3.00021241
+  3.03900868  3.12048084  3.25238815  3.44055005  3.68884617  4.00309594
+  4.38135956  4.81781757  5.30471074  5.8342798   6.39100625  6.96131139
+  7.53355635  8.0902828   8.61985186  9.11256446  9.55678173  9.94474442
+ 10.27451269 10.54220695 10.74976698 10.8971928  10.99030384 11.03685936
+ 11.03879918 11.00776216 10.94956776 10.8680956  10.77304474 10.66441519
+ 10.54802639 10.42775795 10.3036099  10.17752202 10.04949434  9.92146665
+  9.79343897  9.66347147  9.53544379  9.40547629  9.2774486   9.1474811
+  9.01945342  8.89142573]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",13.278653226346169,,5.155135,0.901955000000001
+003,4,1,csm,61b.png,1,1,216,212,215,1,1,333,neu_feedback_onset,7,"[-2.51379198e-01 -1.97576278e-01 -1.83627373e-01 -1.99568979e-01
+ -2.37430293e-01 -2.85255111e-01 -3.29094527e-01 -3.58985038e-01
+ -3.66955841e-01 -3.49021534e-01 -3.01196716e-01 -2.23481388e-01
+ -1.19860949e-01  5.67919710e-03  1.49153650e-01  3.04584308e-01
+  4.71971170e-01  6.45336134e-01  8.22686499e-01  1.00402227e+00
+  1.18735073e+00  1.37067920e+00  1.55400767e+00  1.73932884e+00
+  1.92664271e+00  2.11395658e+00  2.30326315e+00  2.49655512e+00
+  2.69383249e+00  2.89708797e+00  3.11030695e+00  3.33149673e+00
+  3.56663541e+00  3.81373031e+00  4.07278140e+00  4.34179600e+00
+  4.61678870e+00  4.89178140e+00  5.16079600e+00  5.41586170e+00
+  5.64900768e+00  5.85425586e+00  6.02562812e+00  6.15913907e+00
+  6.25678141e+00  6.31855513e+00  6.34844564e+00  6.35243105e+00
+  6.33449674e+00  6.30261353e+00  6.26076681e+00  6.21493469e+00
+  6.17109528e+00  6.13921207e+00  6.12526316e+00  6.13721937e+00
+  6.18703688e+00  6.28467922e+00  6.44409528e+00  6.67325586e+00
+  6.98212448e+00  7.37867192e+00  7.86489090e+00  8.43679602e+00
+  9.08641646e+00  9.79980332e+00  1.05610150e+01  1.13521172e+01
+  1.21472048e+01  1.29283435e+01  1.36756063e+01  1.43710588e+01
+  1.50027449e+01  1.55587085e+01  1.60309785e+01  1.64155698e+01
+  1.67104895e+01  1.69177304e+01  1.70432705e+01  1.70891026e+01
+  1.70651902e+01  1.69795041e+01  1.68420077e+01  1.66646574e+01
+  1.64534311e+01  1.62162997e+01  1.59632267e+01  1.56962048e+01
+  1.54212121e+01  1.51422340e+01  1.48592705e+01  1.45743143e+01
+  1.42873654e+01  1.40004165e+01  1.37134676e+01  1.34265187e+01
+  1.31375771e+01  1.28506281e+01  1.25616865e+01  1.22747376e+01
+  1.19857960e+01  1.16948617e+01  1.14059201e+01  1.11169785e+01
+  1.08280369e+01  1.05450734e+01  1.02700807e+01  1.00090369e+01
+  9.76792011e+00  9.56267193e+00  9.39927047e+00  9.29565003e+00
+  9.26376682e+00  9.31557704e+00  9.45705879e+00  9.69219748e+00
+  1.00130223e+01  1.04095697e+01  1.08599201e+01  1.13401610e+01
+  1.18184092e+01  1.22627814e+01  1.26473727e+01  1.29422924e+01
+  1.31315990e+01  1.32033362e+01  1.31555114e+01  1.29861318e+01
+  1.27111391e+01  1.23385041e+01  1.18881537e+01  1.13720442e+01
+  1.08081099e+01  1.02083070e+01  9.58459164e+00  8.94493470e+00
+  8.29730696e+00  7.64569382e+00  6.99806608e+00  6.36239455e+00
+  5.74266462e+00  5.15083250e+00  4.59686170e+00  4.09669381e+00
+  3.66627045e+00  3.31754782e+00  3.06846023e+00  2.92897118e+00
+  2.90107337e+00  2.98277410e+00  3.16610257e+00  3.42913906e+00
+  3.74597848e+00  4.08673031e+00  4.41951133e+00  4.71044564e+00
+  4.93761352e+00  5.07710257e+00  5.12094199e+00  5.06514637e+00
+  4.91569381e+00  4.68653323e+00  4.39360622e+00  4.06082520e+00
+  3.70811717e+00  3.35939454e+00  3.03458432e+00  2.74962811e+00
+  2.51648213e+00  2.33913176e+00  2.22554782e+00  2.16775950e+00
+  2.16576680e+00  2.21159891e+00  2.29927775e+00  2.42083249e+00
+  2.57427045e+00  2.75361351e+00  2.95886169e+00  3.18802227e+00
+  3.44109527e+00  3.72007337e+00  4.02296388e+00  4.34578140e+00
+  4.68653323e+00  5.03525586e+00  5.38597119e+00  5.72672301e+00
+  6.04954053e+00  6.34047484e+00  6.59554054e+00  6.80875951e+00
+  6.98013178e+00  7.10965733e+00  7.20729966e+00  7.28501499e+00
+  7.35475952e+00  7.43646025e+00  7.54207339e+00  7.69152594e+00
+  7.89478142e+00  8.15781791e+00  8.48661353e+00  8.87519018e+00
+  9.32155514e+00  9.81773763e+00  1.03477960e+01  1.09077449e+01
+  1.14816427e+01  1.20635114e+01  1.26453800e+01  1.32192778e+01
+  1.37772340e+01  1.43132705e+01  1.48154311e+01  1.52757449e+01
+  1.56802632e+01  1.60170296e+01  1.62740880e+01  1.64414749e+01
+  1.65112194e+01  1.64813289e+01  1.63557887e+01  1.61405771e+01
+  1.58476501e+01  1.54969347e+01  1.51023800e+01  1.46839128e+01
+  1.42594676e+01  1.38489712e+01  1.34623873e+01  1.31156573e+01
+  1.28127668e+01  1.25616865e+01  1.23584311e+01  1.22069858e+01
+  1.20973873e+01  1.20276427e+01  1.19917741e+01  1.19798179e+01
+  1.19897814e+01  1.20156865e+01  1.20535479e+01  1.21033654e+01
+  1.21651391e+01  1.22408617e+01  1.23325260e+01  1.24461099e+01
+  1.25875917e+01  1.27669347e+01  1.29881245e+01  1.32571391e+01
+  1.35799566e+01  1.39565771e+01  1.43850077e+01  1.48572778e+01
+  1.53594384e+01  1.58815260e+01  1.63996282e+01  1.68997960e+01]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",13.697027787215404,,5.018315000000001,0.046065000000001355
+003,4,1,csp,22a.png,1,1,324,330,324,1,1,418,pos_feedback_onset,8,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[-0.64774328 -0.46696939 -0.33094151 -0.2378698  -0.18954411 -0.17522539
+ -0.18775427 -0.21818156 -0.25218853 -0.28082598 -0.29156502 -0.27366661
+ -0.22176124 -0.12689969  0.01628755  0.20959032  0.45121879  0.73938311
+  1.06513409  1.41952251  1.78643981  2.15872664  2.52027442  2.86034411
+  3.1735662   3.45278132  3.69440979  3.90203129  4.07564582  4.2206229
+  4.33875237  4.43540376  4.51594658  4.578591    4.63049638  4.67166271
+  4.70209     4.72535792  4.74325633  4.75578521  4.76294457  4.7683141
+  4.77189378  4.77368362  4.77368362  4.77368362  4.77368362  4.77189378
+  4.77189378  4.77010394  4.77010394  4.77010394  4.7683141   4.76652426
+  4.76652426  4.76473441  4.76473441  4.76294457  4.76294457  4.76115473
+  4.76115473  4.75936489  4.75936489  4.75757505  4.75757505  4.75578521
+  4.75578521  4.75399537  4.75399537  4.75220553  4.75220553  4.75041569
+  4.75041569  4.74862585  4.74862585  4.74683601  4.74683601  4.74504617
+  4.74504617  4.74325633  4.74325633  4.74146649  4.74146649  4.73967665
+  4.73967665  4.73788681  4.73788681  4.73609697  4.73609697  4.73430713
+  4.73430713  4.73251729  4.73251729  4.73072744  4.73072744  4.7289376
+  4.7289376   4.72714776  4.72714776  4.72535792  4.72535792  4.72356808
+  4.72356808  4.72177824  4.72177824  4.72177824  4.72177824  4.72177824
+  4.72535792  4.7289376   4.73609697  4.74862585  4.76652426  4.79158202
+  4.82558899  4.87391469  4.9365591   5.01710193  5.12091268  5.25157103
+  5.41444652  5.61311881  5.85295744  6.1339624   6.45971337  6.82842052
+  7.22934479  7.65711667  8.0956276   8.528769    8.94222216  9.31808867
+  9.6420498   9.89978683 10.0841404  10.18974099 10.2165886  10.16468323
+ 10.03939439  9.85146114]",,7.77032408642066,5.14405,
+003,4,1,csm,4b.png,1,1,92,90,93,1,1,653,neu_feedback_onset,9,"[ 2.66845822  2.1206266   1.58389967  1.06382979  0.56967086  0.11437836
+ -0.29464458 -0.64259169 -0.92020906 -1.11454123 -1.22003583 -1.23299131
+ -1.15710923 -1.00349428 -0.78325116 -0.51858926 -0.22986719  0.06440723
+  0.34202461  0.59002946  0.79546632  0.95833518  1.07493448  1.15081657
+  1.19523535  1.21559395  1.21744474  1.21004161  1.19523535  1.17672752
+  1.15266735  1.12305483  1.08418839  1.03421727  0.97129066  0.8935578
+  0.80286945  0.69922563  0.58262633  0.45862391  0.32721835  0.19026044
+  0.04960097 -0.0910585  -0.23171797 -0.37237744 -0.50748456 -0.63703934
+ -0.75548942 -0.86283481 -0.95722471 -1.03680836 -1.10158575 -1.15340766
+ -1.19227409 -1.22003583 -1.23854366 -1.25149913 -1.26075305 -1.26630539
+ -1.26815618 -1.27000696 -1.27000696 -1.27000696 -1.27000696 -1.27000696
+ -1.26815618 -1.26630539 -1.26445461 -1.25890226 -1.25149913 -1.23669287
+ -1.21448348 -1.17931862 -1.12749671 -1.04976384 -0.94056767 -0.79065429
+ -0.59447134 -0.34646649 -0.04108737  0.31796444  0.72883815  1.1785783
+  1.65608019  2.14283599  2.6184871   3.06082412  3.44948844  3.76412147
+  3.9936185   4.1213225   4.14353189  4.05839589  3.86776529  3.580894
+  3.20888672  2.76099735  2.25758451  1.7079021   1.12860718  0.53450599
+ -0.06144598 -0.6518456  -1.22188661 -1.76416589 -2.26757873 -2.72472201
+ -3.12449103 -3.46133345 -3.7315477  -3.93143221 -4.06283777 -4.12576437
+ -4.13131672 -4.08504716 -3.99806038 -3.88146108 -3.74635396 -3.60384371
+ -3.46318423 -3.33548024 -3.22443329 -3.13744651 -3.07637069 -3.0430566
+ -3.03935504 -3.05971365 -3.10228164 -3.1596559  -3.22813486 -3.30216616
+ -3.37249589 -3.43727328 -3.49279675 -3.53721553 -3.5723804  -3.59829136
+ -3.61679918 -3.63345623 -3.65196405 -3.67417344 -3.70378596 -3.73895083
+ -3.77966804 -3.82038526 -3.85184856 -3.86295326 -3.83889308 -3.76116022
+ -3.60939605 -3.36509276 -3.0115933  -2.53779298 -1.93813945 -1.22003583
+ -0.39273605  0.52340129  1.50246524  2.51484328  3.53092287  4.51924073
+  5.45203512  6.30894742  7.0733206   7.73775152  8.29853862  8.76123425
+  9.13324153  9.42566517  9.65146064  9.82173263  9.95313819 10.05122966
+ 10.12896253 10.19188913 10.24556182 10.29183139 10.3325486  10.36956425
+ 10.40472912 10.43619242 10.46395416 10.48616355 10.50282059 10.51207451
+ 10.51577607 10.51207451 10.50282059 10.48616355 10.46580494 10.43989399
+ 10.41028147 10.37696738 10.3436533  10.30663765 10.269622   10.23260635
+ 10.19373991 10.15672426 10.11785783 10.0789914  10.04012496 10.00125853
+  9.9623921   9.92352567  9.88465923  9.84764358  9.80877715  9.76991072
+  9.73104429  9.69217785  9.65331142  9.61444499  9.57557855  9.53671212
+  9.49969647  9.46083004  9.42196361  9.38309717  9.34423074  9.30536431
+  9.26649788  9.22763144  9.19061579  9.15174936  9.11288293  9.07401649
+  9.03515006  8.99628363  8.9574172   8.91855076  8.87968433  8.84266868
+  8.80380225  8.76493581  8.72606938  8.68720295  8.64833652  8.60947008
+  8.57060365  8.53173722  8.49472157  8.45585514  8.4169887   8.37812227
+  8.33925584  8.3003894   8.26152297  8.22265654  8.18379011  8.14677446
+  8.10790802  8.06904159  8.03017516  7.99130873  7.95244229  7.91357586
+  7.87470943  7.83584299]","[-3.87094455 -3.42411932 -2.9499025  -2.455142   -1.95010965 -1.44336533
+ -0.95202877 -0.48979578 -0.06522621  0.31483203  0.64866697  0.93970256
+  1.19821064  1.42932714  1.64503587  1.85560868  2.06618149  2.28189022
+  2.5010229   2.72015558  2.93928826  3.15328502  3.36043388  3.5573109
+  3.74905199  3.93908112  4.13424616  4.33968305  4.56223967  4.80705196
+  5.07583189  5.36515551  5.67159886  5.98489012  6.29818137  6.59606486
+  6.86826873  7.10452115  7.29626225  7.43835609  7.52737875  7.56675415
+  7.55990625  7.510259    7.4246603   7.30995804  7.17471209  7.02063442
+  6.85628491  6.68337553  6.50533023  6.32214901  6.13896778  5.95407458
+  5.76746941  5.58257621  5.39597104  5.20936587  5.0227607   4.83615552
+  4.64955035  4.46294518  4.27634     4.08973483  3.90312966  3.71652449
+  3.52991931  3.34331414  3.15670897  2.9701038   2.78349862  2.59689345
+  2.41028828  2.22368311  2.03878991  1.85218474  1.66557956  1.47897439
+  1.29236922  1.10576405  0.91915887  0.7325537   0.54594853  0.35934336
+  0.17273818 -0.01215502 -0.19876019 -0.38194141 -0.56512264 -0.74316794
+ -0.91778929 -1.08385078 -1.23621647 -1.37317439 -1.48616468 -1.56662746
+ -1.61113879 -1.60600287 -1.54779575 -1.42966954 -1.24991226 -1.00509997
+ -0.70208056 -0.34427798  0.05803592  0.48945338  0.93970256  1.39166371
+  1.82992907  2.23909087  2.60545332  2.91532063  3.154997    3.31763453
+  3.39124942  3.37412968  3.26113939  3.0557025   2.76124296  2.38974459
+  1.95319121  1.47041452  0.9636702   0.45350193 -0.03441068 -0.48123591
+ -0.86643007 -1.17800935 -1.4057019  -1.54779575 -1.60257892 -1.58032325
+ -1.48445271 -1.32695109 -1.11637828 -0.86129415 -0.57197053 -0.25183138
+  0.09056343  0.45007798]",10.11998623017813,5.832995218456444,5.4031199999999995,
+003,4,1,csm,26b.png,1,1,8,17,7,1,1,288,neu_feedback_onset,10,"[ 1.09676188  0.9007289   0.71662837  0.54616491  0.38933853  0.2444446
+  0.1114831  -0.01295522 -0.1254611  -0.22944381 -0.31978944 -0.39479336
+ -0.45275094 -0.48684363 -0.4953668  -0.47320655 -0.41695361 -0.32831262
+ -0.2089882  -0.06068499  0.1063692   0.28535583  0.46434245  0.63651054
+  0.78992766  0.91947988  1.02005332  1.09335261  1.13937774  1.16324262
+  1.1717658   1.17347043  1.18028897  1.20074458  1.24336045  1.31665973
+  1.42234708  1.56383175  1.74111374  1.94737452  2.17750019  2.42637683
+  2.68548129  2.94799501  3.2088041   3.46620392  3.7167852   3.96054794
+  4.19749214  4.42761781  4.65262957  4.86741352  5.07196967  5.25777484
+  5.41971512  5.54926735  5.63620371  5.67200104  5.64813615  5.55779052
+  5.39585024  5.1623153   4.85889035  4.49068929  4.06793992  3.59916541
+  3.09800285  2.57468004  2.03942479  1.50076027  0.96039111  0.42172659
+ -0.1152333  -0.64707928 -1.17381136 -1.6937249  -2.201706   -2.69093612
+ -3.15800599 -3.59609707 -4.00350473 -4.37852433 -4.71945124 -5.02969473
+ -5.31095944 -5.56665462 -5.79678029 -6.00133643 -6.17691379 -6.32180773
+ -6.42749507 -6.48886192 -6.49738509 -6.44965532 -6.34055871 -6.16668599
+ -5.93485569 -5.64506781 -5.31095944 -4.9393491  -4.54557852 -4.14158013
+ -3.74099101 -3.35744823 -2.99947497 -2.67900368 -2.40114824 -2.16761331
+ -1.97839887 -1.82839103 -1.71247588 -1.61872098 -1.53519389 -1.44825752
+ -1.34597945 -1.21813186 -1.0527823  -0.84652152 -0.59594024 -0.3027431
+  0.02625137  0.38422463  0.75583496  1.1325592   1.49564636  1.83145937
+  2.13147505  2.38205633  2.58149858  2.72468788  2.81503351  2.85594474
+  2.85424011  2.81503351  2.74855277  2.65991177  2.55592906  2.44001391
+  2.31728022  2.18943263  2.05817577  1.92521427  1.79225278  1.65758665
+  1.52292052  1.38825439  1.25358826  1.11892213  0.984256    0.84958986
+  0.71492373  0.5802576   0.44559147  0.31092534  0.17796385  0.04670699
+ -0.08454987 -0.2141021  -0.34024506 -0.46297875 -0.58059853 -0.68969514
+ -0.78685931 -0.86868177 -0.92663935 -0.9590274  -0.95732277 -0.91470691
+ -0.82606591 -0.68969514 -0.50388998 -0.26865041  0.01431893  0.3381995
+  0.70299129  1.10358041  1.53996686  2.010446    2.5184271   3.06220552
+  3.64519054  4.26397289  4.91684793  5.59358785  6.28737411  6.98627428
+  7.67494664  8.34145876  8.97387818  9.5568632  10.08700455 10.55407442
+ 10.95466354 11.28877191 11.55639954 11.75925105 11.90073572 11.98596745
+ 12.02006014 12.0081277  11.95528403 11.86834766 11.75413715 11.61606175
+ 11.46264464 11.29388582 11.11660382 10.93420792 10.74669812 10.55577905
+ 10.36315535 10.16882701  9.97449867  9.78017033  9.58584199  9.39151365
+  9.19718531  9.00285697  8.80852863  8.61249565  8.41816731  8.22383897
+  8.02951063  7.83518229  7.64085395  7.44482098  7.25049264  7.0561643
+  6.86183596  6.66750762  6.47147465  6.27714631  6.08281797  5.88848963
+  5.69416129  5.49812831  5.30379997  5.10947163  4.91514329  4.72081495
+  4.52648661  4.33045364  4.1361253   3.94179696  3.74746862  3.55314028
+  3.3571073   3.16277896  2.96845062  2.77412228  2.57979394  2.3854656
+  2.18943263  1.99510429  1.80077595  1.60644761  1.41211927  1.2160863
+  1.02175796  0.82742962]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",9.417594556079099,,5.8663599999999985,
+003,4,1,csp,13a.png,1,1,356,347,356,1,1,329,pos_feedback_onset,11,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.151165000000001,
+003,4,1,csm,57b.png,1,1,72,48,71,1,1,428,neu_feedback_onset,12,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.866999999999999,
+003,4,1,csp,46a.png,1,1,204,222,206,1,1,392,neg_feedback_onset,13,"[ -2.52904556  -2.25039503  -1.92502465  -1.57462578  -1.21755265
+  -0.86882234  -0.5417834   -0.24644721   0.01551766   0.24411121
+   0.44433914   0.62287571   0.78138948   0.92989186   1.06671428
+   1.19519386   1.31533062   1.42378741   1.51722711   1.59731828
+   1.66239236   1.71578647   1.76083775   1.8025519    1.85094032
+   1.90767157   1.97775134   2.06284821   2.15962504   2.259739
+   2.3531787    2.42826417   2.47164689   2.46997833   2.41825278
+   2.30979598   2.15128221   1.94604859   1.70911221   1.45215303
+   1.19185673   0.93990326   0.70630401   0.49940182   0.31919669
+   0.16902574   0.04388329  -0.05956781  -0.14466468  -0.21641302
+  -0.27981853  -0.33488121  -0.38660675  -0.43666374  -0.48505215
+  -0.531772    -0.57849185  -0.6252117   -0.67026298  -0.71698283
+  -0.76203412  -0.80875396  -0.85547381  -0.9005251   -0.94557638
+  -0.99062766  -1.03567895  -1.07906167  -1.12077582  -1.15915284
+  -1.19586129  -1.22589548  -1.25092397  -1.26760963  -1.27595246
+  -1.27428389  -1.26260393  -1.23757544  -1.20420412  -1.16248997
+  -1.11410155  -1.062376    -1.01565616  -0.97561057  -0.95058208
+  -0.94724495  -0.96726774  -1.01565616  -1.09407876  -1.19919842
+  -1.32767801  -1.46950612  -1.6130028   -1.74648809  -1.85494488
+  -1.92335609  -1.94337888  -1.90833899  -1.81656786  -1.67140261
+  -1.48452322  -1.26594106  -1.03401038  -0.8020797   -0.58683468
+  -0.39995528  -0.24477864  -0.12297332  -0.02953362   0.04054616
+   0.0972774    0.15234008   0.21574559   0.29249963   0.38927646
+   0.50607608   0.6428985    0.79640658   0.96326318   1.13846262
+   1.31533062   1.48886149   1.65404953   1.80422047   1.93603719
+   2.04282542   2.12124802   2.16796787   2.18465353   2.16963644
+   2.12458515   2.05450538   1.96440281   1.85761458   1.73747783
+   1.61066681   1.48051866   1.34870194   1.21521665   1.08339994
+   0.95158322   0.8197665    0.68961835   0.5594702    0.42932204
+   0.29917389   0.16902574   0.03887759  -0.09127056  -0.22141871
+  -0.35156687  -0.48171502  -0.61186317  -0.74201132  -0.87215947
+  -1.00230763  -1.13245578  -1.26260393  -1.39108352  -1.52123167
+  -1.65137982  -1.78152797  -1.91167612  -2.04182428  -2.17197243
+  -2.30212058  -2.43226873  -2.56241688  -2.69256504  -2.82271319
+  -2.95286134  -3.08300949  -3.21315764  -3.3433058   -3.47345395
+  -3.6036021   -3.73375025  -3.8638984   -3.99404656  -4.12419471
+  -4.25434286  -4.38449101  -4.51463916  -4.64478732  -4.77493547
+  -4.90508362  -5.03523177  -5.16537992  -5.29552808  -5.42567623
+  -5.55582438  -5.68597253  -5.81612068  -5.94460027  -6.07474842
+  -6.20489657  -6.33504473  -6.46519288  -6.59534103  -6.72548918
+  -6.85563733  -6.98578549  -7.11593364  -7.24608179  -7.37622994
+  -7.50637809  -7.63652625  -7.7666744   -7.89682255  -8.0269707
+  -8.15711885  -8.28726701  -8.41741516  -8.54756331  -8.67771146
+  -8.80785961  -8.93800777  -9.06815592  -9.19830407  -9.32845222
+  -9.45860037  -9.58874853  -9.71889668  -9.84904483  -9.97919298
+ -10.10934113 -10.23948929 -10.36963744 -10.49811702 -10.62826518
+ -10.75841333 -10.88856148 -11.01870963 -11.14885778 -11.27900594
+ -11.40915409 -11.53763367 -11.66611326 -11.79292428 -11.91639817
+ -12.03486636 -12.14499172 -12.24176855 -12.31852258 -12.366911
+ -12.3769224  -12.33353968 -12.22842002 -12.04320919 -11.76956435
+ -11.40081126 -10.9319442  -10.36963744  -9.72390238  -9.01142467
+  -8.25389568  -7.47968104  -6.71214065  -5.97630302  -5.29886521]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",1.338273401221692,,5.993170000000002,
+003,4,1,csm,15b.png,1,1,292,313,294,1,1,461,neu_feedback_onset,14,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[-7.57559635 -7.037299   -6.37023949 -5.59051309 -4.7177918  -3.78068943
+ -2.80424307 -1.81527817 -0.84062017  0.10184729  0.99602894  1.83298296
+  2.60734427  3.31911286  3.97007711  4.56381372  5.10211107  5.59033425
+  6.02848326  6.42013482  6.76171221  7.05679216  7.30537466  7.50924807
+  7.6737775   7.80253965  7.89911127  7.96885744  8.01356652  8.04039197
+  8.04933379  8.0439687   8.02071998  7.98495271  7.9366669   7.87407419
+  7.80253965  7.72206331  7.6344335   7.54143861  7.44307863  7.34293029
+  7.23920522  7.13548014  7.02996671  6.92445327  6.81893984  6.71342641
+  6.60612461  6.50061117  6.39509774  6.28779594  6.18228251  6.07676907
+  5.96946727  5.86395384  5.7584404   5.65113861  5.54562517  5.44011174
+  5.33280994  5.2272965   5.12178307  5.01448127  4.90896784  4.8034544
+  4.6961526   4.59063917  4.48333737  4.37603557  4.26694541  4.15785525
+  4.04518836  3.92715639  3.80197096  3.66784371  3.51762119  3.34951504
+  3.1563718   2.93103803  2.66814862  2.3623385   2.00824257  1.60586082
+  1.15161655  0.6472981   0.10005893 -0.48473587 -1.09814448 -1.72943673
+ -2.36251734 -2.98665613 -3.58218111 -4.132997   -4.62122018 -5.02896701
+ -5.34371896 -5.55832255 -5.66562435 -5.67098944 -5.58693636 -5.43134876
+ -5.23284043 -5.0200252  -4.82688196 -4.68202453 -4.61406673 -4.64268054
+ -4.77680779 -5.01823683 -5.3562375  -5.77113778 -6.23611224 -6.71718197
+ -7.18036806 -7.59705671 -7.9386341  -8.19079333 -8.34459257 -8.40718529
+ -8.38751329 -8.30703694 -8.1872166  -8.04951263 -7.91359702 -7.7973534
+ -7.70435851 -7.64355416 -7.60957525 -7.60063344 -7.60957525 -7.63282398
+ -7.66143779 -7.69362833 -7.72581887 -7.75622105 -7.78483486 -7.81166031
+ -7.83669739 -7.85994612]",,6.62065505959275,5.656125,
+003,5,1,csm,34b.png,1,0,236,266,236,1,1,269,neu_feedback_onset,1,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,2.5855049999999995,
+003,5,1,csp,40a.png,1,1,48,235,46,1,1,295,pos_feedback_onset,2,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,6.068379999999999,
+003,5,1,csm,50b.png,1,1,244,232,244,1,1,352,neu_feedback_onset,3,"[ 1.37724954  1.2198396   1.03094767  0.82456575  0.60768983  0.39081391
+  0.18268298 -0.01320495 -0.19335188 -0.35076182 -0.48368577 -0.58687673
+ -0.65858571 -0.69356569 -0.6883187  -0.64109571 -0.55364575 -0.42596879
+ -0.26506085 -0.07966692  0.12146801  0.32610093  0.52373786  0.70563379
+  0.86479273  0.99596768  1.09915864  1.17611462  1.2303336   1.26531358
+  1.28630157  1.30029357  1.31253657  1.32303056  1.33877156  1.35975955
+  1.38949254  1.43146852  1.4874365   1.55739647  1.64484644  1.7515354
+  1.87571436  2.0173833   2.17479325  2.34444618  2.52284412  2.70648905
+  2.89363198  3.08252391  3.27316484  3.46555477  3.6649407   3.87307162
+  4.09344554  4.32781145  4.57442036  4.82977427  5.08687717  5.33523508
+  5.56610299  5.76723792  5.92814586  6.04357982  6.10304579  6.10304579
+  6.04357982  5.92464786  5.74799893  5.52062901  5.24778511  4.93646323
+  4.59540835  4.23336549  3.85907962  3.48479376  3.1192529   2.76945303
+  2.44239015  2.14506026  1.87746336  1.64309744  1.44021352  1.26706258
+  1.12189564  1.00296368  0.91551371  0.85604773  0.83331074  0.84730274
+  0.90327072  1.00471268  1.14987963  1.33702256  1.55739647  1.80225638
+  2.06110829  2.31996019  2.5665691   2.78519402  2.96359195  3.09126891
+  3.16472688  3.17522088  3.1244999   3.01081494  2.842911    2.62428608
+  2.36193618  2.06635529  1.7480374   1.41572753  1.08166865  0.75635477
+  0.45027988  0.17393799 -0.06742393 -0.26855885 -0.43296479 -0.56413974
+ -0.6708287  -0.76352567 -0.85622263 -0.96116259 -1.09058855 -1.25149649
+ -1.44738442 -1.68175033 -1.94584923 -2.23618312 -2.54225801 -2.85532889
+ -3.16315278 -3.45873367 -3.73682457 -3.99392747 -4.22654439 -4.43467531
+ -4.61657124 -4.77048319 -4.89466214 -4.98386111 -5.03458209 -5.04157809
+ -4.9978531  -4.89816014 -4.7355032  -4.51163128 -4.21954839 -3.86275252
+ -3.44474168 -2.97251185 -2.45305904 -1.90037525 -1.32670346 -0.74603567
+ -0.17586189  0.37332391  0.88578072  1.35276355  1.7690254   2.12757026
+  2.43014715  2.67850506  2.87439299  3.02305793  3.13324489  3.20845186
+  3.25917285  3.28890583  3.30464683  3.31339183  3.31688982  3.32038782
+  3.32563482  3.33437982  3.34837181  3.36935981  3.39734379  3.43057478
+  3.47255077  3.52327175  3.58448673  3.6544467   3.73664967  3.82759764
+  3.9325376   4.04797155  4.17389951  4.31207046  4.4572374   4.60940035
+  4.76855929  4.92771823  5.08512817  5.23554212  5.37196407  5.49089602
+  5.58184399  5.63956097  5.65879996  5.63081597  5.555609    5.43492804
+  5.2687731   5.06938718  4.84551526  4.61464734  4.38902643  4.1878915
+  4.02348556  3.90980061  3.85208363  3.85208363  3.90805161  4.00774457
+  4.14241752  4.29108246  4.43974741  4.57092236  4.67061532  4.7283323
+  4.7405753   4.70209731  4.61989434  4.49746439  4.34530144  4.17040151
+  3.98325858  3.79086865  3.59847872  3.41658279  3.24692985  3.09476691
+  2.96534095  2.86214999  2.78694302  2.74321804  2.72922604  2.74146904
+  2.77819802  2.828919    2.88488698  2.93560797  2.97233695  2.98632895
+  2.97058795  2.92161597  2.839413    2.72572804  2.58580809  2.42664915
+  2.25174922  2.06810429  1.87921236  1.69381842  1.51017349  1.33527356
+  1.17261662  1.02395167]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",4.001448171464901,,5.717555,
+003,5,1,csp,30a.png,1,1,184,189,183,1,0,459,neg_feedback_onset,4,"[-2.01257596 -1.27271002 -0.5750217   0.06115757  0.61298157  1.06639111
+  1.40381215  1.61997251  1.71135738  1.67620936  1.52331544  1.26146265
+  0.90295279  0.46535986 -0.0319847  -0.5715069  -1.13036051 -1.69448633
+ -2.24455293 -2.77177332 -3.26560309 -3.72428483 -4.14430374 -4.53093202
+ -4.88592708 -5.21280372 -5.51507675 -5.79274615 -6.04756934 -6.27427411
+ -6.47110305 -6.62751177 -6.73998545 -6.79622229 -6.79095009 -6.71713923
+ -6.57127492 -6.35511456 -6.07393036 -5.73826671 -5.36218283 -4.96852494
+ -4.57838186 -4.21635719 -3.90353976 -3.66277578 -3.50812447 -3.45013022
+ -3.48879305 -3.62235555 -3.84378811 -4.14078893 -4.4975414  -4.90174369
+ -5.33406441 -5.78220174 -6.23033907 -6.66265979 -7.06510469 -7.42009975
+ -7.71358577 -7.92623132 -8.04749201 -8.06155122 -7.96313675 -7.74873379
+ -7.42537195 -7.00183824 -6.50097887 -5.94915487 -5.37448464 -4.81387363
+ -4.29895505 -3.85608992 -3.50812447 -3.26736049 -3.13555539 -3.10040737
+ -3.1460998  -3.24627167 -3.36928976 -3.48176345 -3.5520595  -3.5538169
+ -3.46418943 -3.26736049 -2.95630046 -2.53100935 -1.99324455 -1.35706528
+ -0.63477335  0.15429983  0.98906545  1.84843468  2.70956132  3.55311394
+  4.36151854  5.11368629  5.8008302   6.41064845  6.93611143  7.37194695
+  7.71639761  7.9694634   8.13290172  8.20495517  8.18738116  8.07842228
+  7.88159333  7.59689432  7.22784005  6.78321752  6.27005634  5.70593053
+  5.10489928  4.48453663  3.85890176  3.24381131  2.64805227  2.08041165
+  1.54264686  1.03827269  0.56904654  0.13321102 -0.26396167 -0.61895674
+ -0.92298716 -1.16726594 -1.34124867 -1.43614834 -1.44317794 -1.35882268
+ -1.18835476 -0.94231857 -0.63301595 -0.28856529  0.06818717  0.40912302
+  0.70963864  0.95040262  1.11911315  1.20698321  1.22104242  1.16480558
+  1.0558467   0.90998239  0.74302927  0.57256134  0.41263782  0.27380312
+  0.16484424  0.08927599  0.04534095  0.02776694  0.03128174  0.04709835
+  0.06642977  0.08048898  0.08224638  0.06642977  0.02952434 -0.0319847
+ -0.11633997 -0.22529885 -0.35710394 -0.51351266 -0.69452499 -0.89838354
+ -1.12684571 -1.3799115  -1.6575809  -1.95809652 -2.28145836 -2.62063681
+ -2.97563187 -3.33765654 -3.70319601 -4.06346328 -4.41318613 -4.74533498
+ -5.05463761 -5.33406441 -5.58010059 -5.78923135 -5.96145667 -6.09326177
+ -6.18816144 -6.24791309 -6.27778891 -6.28306111 -6.2725167  -6.25318529
+ -6.23561128 -6.22682427 -6.23385388 -6.2619723  -6.31117953 -6.37971818
+ -6.46055864 -6.54842871 -6.63278397 -6.70132262 -6.74701505 -6.76283167
+ -6.74174285 -6.68550601 -6.59412114 -6.46934565 -6.31996654 -6.14774121
+ -5.96145667 -5.76287033 -5.55725438 -5.34812362 -5.13899287 -4.92986211
+ -4.72248876 -4.52038761 -4.32355867 -4.13200193 -3.94747479 -3.77524946
+ -3.61356854 -3.46770424 -3.34117134 -3.23396986 -3.151372   -3.09162036
+ -3.05647233 -3.04592793 -3.05822973 -3.08986296 -3.13379799 -3.18476263
+ -3.23748467 -3.2831771  -3.31481032 -3.32359733 -3.30778072 -3.26208828
+ -3.18124783 -3.06877414 -2.92466724 -2.75068451 -2.55209816 -2.3341804
+ -2.10220343 -1.86671166 -1.63297728 -1.41330212 -1.21998798 -1.06357926
+ -0.95813519 -0.91420015 -0.94231857 -1.05127746 -1.2481064  -1.53104801
+ -1.89834488 -2.34648221]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",3.667608633761067,,5.690220000000001,0.33303999999999956
+003,5,1,csm,45b.png,1,1,112,135,114,1,1,601,neu_feedback_onset,5,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[-3.21416117e+00 -3.04943124e+00 -2.84789996e+00 -2.61307220e+00
+ -2.34494796e+00 -2.04352725e+00 -1.70355273e+00 -1.32677685e+00
+ -9.16704490e-01 -4.73335658e-01 -5.43258253e-03  4.79994953e-01
+  9.72432272e-01  1.45785981e+00  1.92926778e+00  2.37614150e+00
+  2.79147120e+00  3.17175197e+00  3.52048872e+00  3.83943389e+00
+  4.13559726e+00  4.41423617e+00  4.68586530e+00  4.95574198e+00
+  5.23087600e+00  5.51126735e+00  5.79516360e+00  6.08256474e+00
+  6.36120365e+00  6.62056565e+00  6.85188852e+00  7.03764780e+00
+  7.16908125e+00  7.23567419e+00  7.23041685e+00  7.15330923e+00
+  7.00610377e+00  6.79756270e+00  6.54345803e+00  6.25956178e+00
+  5.96164597e+00  5.67073994e+00  5.40086325e+00  5.16603549e+00
+  4.97677133e+00  4.83657565e+00  4.74720091e+00  4.70864709e+00
+  4.71390443e+00  4.75771558e+00  4.83482320e+00  4.93821752e+00
+  5.06088874e+00  5.19933197e+00  5.34653743e+00  5.50250512e+00
+  5.66197771e+00  5.82495518e+00  5.98968510e+00  6.15616747e+00
+  6.32089739e+00  6.48562731e+00  6.64685234e+00  6.80457248e+00
+  6.95528284e+00  7.09723096e+00  7.22515952e+00  7.33205872e+00
+  7.41267124e+00  7.45823483e+00  7.45998728e+00  7.40916634e+00
+  7.29700980e+00  7.12001276e+00  6.87116543e+00  6.55222026e+00
+  6.16142481e+00  5.70403641e+00  5.18706485e+00  4.61751990e+00
+  4.00766870e+00  3.36452103e+00  2.70034401e+00  2.02214741e+00
+  1.34219837e+00  6.69259118e-01  1.55967692e-02 -6.08273998e-01
+ -1.19008606e+00 -1.71757230e+00 -2.18021804e+00 -2.57276594e+00
+ -2.88995866e+00 -3.13530110e+00 -3.31755548e+00 -3.45424626e+00
+ -3.56640281e+00 -3.68031180e+00 -3.82225992e+00 -4.01152408e+00
+ -4.26738120e+00 -4.59684104e+00 -4.99639872e+00 -5.45378712e+00
+ -5.94271955e+00 -6.43515687e+00 -6.89429772e+00 -7.28334072e+00
+ -7.57074186e+00 -7.73021445e+00 -7.74423401e+00 -7.61104812e+00
+ -7.33240921e+00 -6.92759419e+00 -6.42113730e+00 -5.84107768e+00
+ -5.22071181e+00 -4.58807881e+00 -3.97472272e+00 -3.39816799e+00
+ -2.87769154e+00 -2.42030314e+00 -2.03126013e+00 -1.70881007e+00
+ -1.44594318e+00 -1.23389721e+00 -1.06215751e+00 -9.21961828e-01
+ -7.97538164e-01 -6.83629175e-01 -5.69720187e-01 -4.48801415e-01
+ -3.15615520e-01 -1.68410058e-01 -3.68013655e-03  1.83831583e-01
+  3.95877546e-01  6.32457753e-01  8.98829541e-01  1.19674536e+00]",,4.9809771989254115,5.74298,-0.08179999999999943
+003,5,1,csm,19b.png,1,1,172,333,172,1,1,396,neu_feedback_onset,6,"[ 2.38946287  2.20533489  2.00154274  1.7798741   1.53675364  1.27575669
+  0.99688323  0.70370857  0.40517096  0.10305804 -0.19726722 -0.48865423
+ -0.77110299 -1.03925055 -1.2930969  -1.5308544  -1.75073539 -1.94737694
+ -2.11899137 -2.26021575 -2.36211182 -2.41752898 -2.41752898 -2.35853652
+ -2.23518865 -2.04748536 -1.80078961 -1.50582729 -1.17332432 -0.82294485
+ -0.46899008 -0.13112416  0.17277641  0.43198571  0.63399021  0.77163928
+  0.84493295  0.8502959   0.79309109  0.67689381  0.50706703  0.29254898
+  0.04049028 -0.23838318 -0.53513314 -0.84082135 -1.14650957 -1.44504718
+ -1.72928359 -1.9956435  -2.2441269  -2.4711585  -2.68210124 -2.87516748
+ -3.05572017 -3.2237593  -3.38464784 -3.53659812 -3.6849731  -3.82619748
+ -3.96027126 -4.08540678 -4.19802876 -4.29634953 -4.37500615 -4.42684801
+ -4.45008746 -4.43578626 -4.3803691  -4.28204833 -4.13367334 -3.9334565
+ -3.6778225  -3.36677133 -2.99672771 -2.56769162 -2.08145071 -1.5415803
+ -0.95523098 -0.32955335  0.31757609  0.97364378  1.61541026  2.22857434
+  2.79168421  3.29222631  3.7176871   4.06627893  4.33263883  4.52570507
+  4.6472653   4.70804541  4.71519601  4.679443    4.60436169  4.49531502
+  4.35587829  4.1860515   3.98940996  3.76595366  3.51568261  3.24038445
+  2.94184684  2.62364507  2.2875668   1.93361203  1.5635684   1.17743592
+  0.77163928  0.34796615 -0.09894645 -0.5655232  -1.0553394  -1.56481976
+ -2.08681367 -2.61774583 -3.15046564 -3.6778225  -4.19266581 -4.68963261
+ -5.16514761 -5.61742316 -6.0482469  -6.45761883 -6.84911426 -7.22630849
+ -7.58920152 -7.93958099 -8.27744691 -8.60279928 -8.91027515 -9.19451156
+ -9.44657026 -9.657513   -9.81482624 -9.90957171 -9.92923586 -9.86488045
+ -9.71650547 -9.48232327 -9.1712721  -8.79407787 -8.37219238 -7.92349214
+ -7.47657955 -7.05290641 -6.67571218 -6.36108571 -6.12154056 -5.96422733
+ -5.89093366 -5.89808426 -5.97674088 -6.11796526 -6.3074562  -6.53270015
+ -6.77760825 -7.03324225 -7.28351331 -7.52305846 -7.7411518  -7.93243039
+ -8.09331892 -8.22202975 -8.31677522 -8.37755533 -8.40615774 -8.39900714
+ -8.36146648 -8.28996047 -8.18985205 -8.05756592 -7.90204033 -7.72148765
+ -7.52484611 -7.31747866 -7.10474827 -6.89916847 -6.70610223 -6.53270015
+ -6.38432517 -6.26634024 -6.18232067 -6.12690351 -6.09651346 -6.08936285
+ -6.09472581 -6.10366406 -6.11081466 -6.10902701 -6.09293816 -6.0553975
+ -5.99819269 -5.91953607 -5.81942765 -5.69965507 -5.56021834 -5.40648041
+ -5.23844128 -5.05788859 -4.87197295 -4.68069436 -4.49120342 -4.30707543
+ -4.13188569 -3.97278481 -3.83156043 -3.71178786 -3.61167943 -3.53302282
+ -3.47224271 -3.4257638  -3.38822314 -3.35604543 -3.32744303 -3.29705297
+ -3.26666291 -3.23627286 -3.2058828  -3.18264334 -3.16655449 -3.16655449
+ -3.184431   -3.22554695 -3.29347767 -3.39179844 -3.52050927 -3.67961015
+ -3.86373814 -4.07110558 -4.28919893 -4.51265522 -4.72896092 -4.92560246
+ -5.0900663  -5.20983887 -5.27598193 -5.28134489 -5.22592772 -5.10973045
+ -4.93632836 -4.71465972 -4.45902571 -4.1783646  -3.89055289 -3.60631648
+ -3.33816893 -3.09683613 -2.89125633 -2.72858015 -2.61059523 -2.53908921
+ -2.51584976 -2.53551391 -2.59450637 -2.68925184 -2.81259972 -2.9573994
+ -3.11650028 -3.28275177]","[-3.81381344 -3.96329798 -3.96685714 -3.81915217 -3.52552182 -3.09664354
+ -2.55209269 -1.91678338 -1.21918883 -0.48956189  0.24362422  0.95723496
+  1.63169499  2.25454727  2.82045304  3.32763275  3.77252723  4.15513648
+  4.47368093  4.726381    4.90433879  5.00399515  5.0164522   4.93815077
+  4.76909087  4.51105207  4.17293226  3.77074765  3.3240736   2.85248545
+  2.3808973   1.92888451  1.51602243  1.15476811  0.85223987  0.61377642
+  0.43581863  0.31302776  0.24006506  0.20625308  0.20269393  0.22582844
+  0.26497915  0.32014607  0.38421087  0.45539399  0.53191584  0.61377642
+  0.69919616  0.78817506  0.87893353  0.97147159  1.06400964  1.15654769
+  1.24552659  1.33094633  1.41102733  1.48399003  1.54983441  1.60856048
+  1.66016824  1.70465769  1.74202883  1.77584081  1.80609363  1.83100772
+  1.85592181  1.87727675  1.89863168  1.91820704  1.93600282  1.9537986
+  1.96803522  1.97693311  1.98049227  1.97337396  1.95557818  1.91820704
+  1.86126055  1.77939996  1.66906613  1.5266999   1.35052168  1.14587022
+  0.91274552  0.65826587  0.38599045  0.10481714 -0.18169491 -0.46642737
+ -0.74582111 -1.01809653 -1.28147406 -1.53417412 -1.77619672 -2.00754185
+ -2.22465036 -2.42930182 -2.61081877 -2.76742162 -2.8902125  -2.97029351
+ -3.00054633 -2.97385266 -2.88487377 -2.73538922 -2.52895818 -2.27981727
+ -2.00220312 -1.71391149 -1.43451776 -1.18537685 -0.97894581 -0.82946127
+ -0.73870279 -0.70844997 -0.73514364 -0.81166549 -0.92555848 -1.07148387
+ -1.24054377 -1.42206072 -1.61425513 -1.81178828 -2.01288058 -2.21397289
+ -2.41328562 -2.61259834 -2.81013149 -3.00766464 -3.20341821 -3.39917178
+ -3.59670493 -3.79601766 -3.99888954 -4.20176143 -4.40285373 -4.59504815
+ -4.76588763 -4.90825386]",1.8557598541992335,1.52776764407017,5.593935,0.24710000000000054
+003,5,1,csp,57a.png,1,1,88,96,88,1,1,319,pos_feedback_onset,7,"[ 6.08367886e-01  5.09760665e-01  4.45955992e-01  4.05353019e-01
+  3.82151320e-01  3.66683520e-01  3.45415296e-01  3.12546222e-01
+  2.66142824e-01  1.98471201e-01  1.15331779e-01  1.86580331e-02
+ -8.96165629e-02 -2.05625059e-01 -3.25500504e-01 -4.43442475e-01
+ -5.61384445e-01 -6.75459466e-01 -7.83734062e-01 -8.90075183e-01
+ -9.92549354e-01 -1.09309005e+00 -1.19169727e+00 -1.28643754e+00
+ -1.37924434e+00 -1.46818419e+00 -1.55519056e+00 -1.63639651e+00
+ -1.70986855e+00 -1.77560670e+00 -1.83167747e+00 -1.87614740e+00
+ -1.91094995e+00 -1.93801859e+00 -1.95928682e+00 -1.98442199e+00
+ -2.01729107e+00 -2.06756141e+00 -2.14490041e+00 -2.25897543e+00
+ -2.41171995e+00 -2.60893439e+00 -2.84675181e+00 -3.11743830e+00
+ -3.40552606e+00 -3.69748078e+00 -3.97010074e+00 -4.20598468e+00
+ -4.38386438e+00 -4.48633855e+00 -4.49987287e+00 -4.41286650e+00
+ -4.22145248e+00 -3.92369735e+00 -3.52153456e+00 -3.02076455e+00
+ -2.42718775e+00 -1.75627195e+00 -1.01961800e+00 -2.34627183e-01
+  5.79365762e-01  1.40495956e+00  2.21701903e+00  2.99814290e+00
+  3.72319600e+00  4.37671052e+00  4.94321868e+00  5.41111961e+00
+  5.77461289e+00  6.03369853e+00  6.18837653e+00  6.24638078e+00
+  6.21544518e+00  6.10717058e+00  5.92735741e+00  5.69147347e+00
+  5.40338571e+00  5.07662845e+00  4.71893558e+00  4.33997450e+00
+  3.94941256e+00  3.55691715e+00  3.17022217e+00  2.79512803e+00
+  2.43936864e+00  2.10681096e+00  1.79358802e+00  1.50550025e+00
+  1.23868071e+00  9.93129397e-01  7.66912830e-01  5.60031013e-01
+  3.78284370e-01  2.21672901e-01  9.79305051e-02  1.47910832e-02
+ -2.00114655e-02  1.25675870e-03  8.63296555e-02  2.46808075e-01
+  4.86558966e-01  8.11382754e-01  1.22321291e+00  1.72011597e+00
+  2.30015845e+00  2.95173950e+00  3.66519175e+00  4.42118044e+00
+  5.19650389e+00  5.96796039e+00  6.70848128e+00  7.39099793e+00
+  7.99230864e+00  8.49114517e+00  8.87397320e+00  9.13112537e+00
+  9.26260166e+00  9.27226904e+00  9.16979487e+00  8.96291305e+00
+  8.66515791e+00  8.28619683e+00  7.83183022e+00  7.31172546e+00
+  6.72588256e+00  6.07816846e+00  5.37051663e+00  4.60679404e+00
+  3.79473457e+00  2.94593907e+00  2.07587536e+00  1.19807774e+00
+  3.35747921e-01 -4.93712823e-01 -1.27096974e+00 -1.98055504e+00
+ -2.61280134e+00 -3.15997475e+00 -3.62207526e+00 -4.00103634e+00
+ -4.30459191e+00 -4.54047585e+00 -4.72222249e+00 -4.85756574e+00
+ -4.95810643e+00 -5.02964500e+00 -5.07991535e+00 -5.10698400e+00
+ -5.11471790e+00 -5.09344968e+00 -5.04124585e+00 -4.94650558e+00
+ -4.79762801e+00 -4.58301230e+00 -4.28912411e+00 -3.90436260e+00
+ -3.42679429e+00 -2.85255224e+00 -2.19323728e+00 -1.46431724e+00
+ -6.90927266e-01  9.40635553e-02  8.53919202e-01  1.54803670e+00
+  2.13968003e+00  2.59404664e+00  2.88793483e+00  3.00200985e+00
+  2.93433822e+00  2.69072038e+00  2.28855760e+00  1.75491852e+00
+  1.12653917e+00  4.42089042e-01 -2.59762357e-01 -9.36478581e-01
+ -1.55905751e+00 -2.09849701e+00 -2.53739582e+00 -2.86995351e+00
+ -3.09617008e+00 -3.22571290e+00 -3.27404977e+00 -3.26244892e+00
+ -3.20444467e+00 -3.12323873e+00 -3.03043193e+00 -2.93569166e+00
+ -2.84675181e+00 -2.76554586e+00 -2.69400729e+00 -2.62826914e+00
+ -2.56833142e+00 -2.50646022e+00 -2.43878860e+00 -2.36144960e+00
+ -2.27057628e+00 -2.16036821e+00 -2.03082539e+00 -1.88194782e+00
+ -1.71566898e+00 -1.53585581e+00 -1.35410917e+00 -1.17429600e+00
+ -1.01188410e+00 -8.72673909e-01 -7.62465838e-01 -6.85126841e-01
+ -6.38723443e-01 -6.19388693e-01 -6.17455218e-01 -6.27122593e-01
+ -6.36789968e-01 -6.42590392e-01 -6.34856493e-01 -6.15521743e-01
+ -5.78785720e-01 -5.28515372e-01 -4.64710699e-01 -3.91238652e-01
+ -3.11966180e-01 -2.24959808e-01 -1.36019961e-01 -4.32131646e-02
+  5.15271068e-02  1.46267378e-01  2.41007650e-01  3.37681396e-01
+  4.32421668e-01  5.29095414e-01  6.23835686e-01  7.20509432e-01
+  8.15249703e-01  9.11923450e-01  1.00666372e+00  1.10333747e+00
+  1.19807774e+00  1.29475149e+00  1.38949176e+00  1.48616550e+00
+  1.58283925e+00  1.67757952e+00  1.77425327e+00  1.86899354e+00
+  1.96566729e+00  2.06040756e+00  2.15708130e+00  2.25182158e+00
+  2.34849532e+00  2.44323559e+00  2.53990934e+00  2.63658309e+00
+  2.73132336e+00  2.82799710e+00  2.92273738e+00  3.01941112e+00
+  3.11415139e+00  3.21082514e+00  3.30749889e+00  3.40610611e+00]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",4.33006543845894,,5.172035,0.577
+003,5,1,csp,35a.png,1,1,32,36,32,1,1,393,pos_feedback_onset,8,"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",,,5.940635000000001,
+003,5,1,csm,8b.png,1,1,16,203,196,1,1,379,neu_feedback_onset,9,"[ 4.03918850e-01  3.29678583e-01  2.58891351e-01  1.93283673e-01
+  1.34582066e-01  7.93334951e-02  2.75379597e-02 -2.08045401e-02
+ -6.39674862e-02 -1.05403915e-01 -1.43387307e-01 -1.76191146e-01
+ -2.02088914e-01 -2.15901057e-01 -2.17627575e-01 -2.00362396e-01
+ -1.60652486e-01 -8.98652539e-02  1.37258169e-02  1.55300280e-01
+  3.36584654e-01  5.57578939e-01  8.14830098e-01  1.09797902e+00
+  1.39494009e+00  1.69017465e+00  1.95951143e+00  2.18395875e+00
+  2.33761884e+00  2.40322652e+00  2.36351661e+00  2.20985652e+00
+  1.94051973e+00  1.56241233e+00  1.08589340e+00  5.29954653e-01
+ -8.46857004e-02 -7.37309446e-01 -1.40892489e+00 -2.08054033e+00
+ -2.74007015e+00 -3.37715523e+00 -3.98661603e+00 -4.56154648e+00
+ -5.10367308e+00 -5.61299585e+00 -6.08951477e+00 -6.53668289e+00
+ -6.95622673e+00 -7.34987280e+00 -7.71762110e+00 -8.05947163e+00
+ -8.36851833e+00 -8.64130815e+00 -8.87093502e+00 -9.04531332e+00
+ -9.15235743e+00 -9.18516127e+00 -9.13336573e+00 -8.99179127e+00
+ -8.76043788e+00 -8.44275860e+00 -8.04911253e+00 -7.59331182e+00
+ -7.08916860e+00 -6.55567459e+00 -6.00664191e+00 -5.45415620e+00
+ -4.90685005e+00 -4.37162951e+00 -3.85022112e+00 -3.34435139e+00
+ -2.85402033e+00 -2.37922792e+00 -1.91997417e+00 -1.48143864e+00
+ -1.06534784e+00 -6.78607840e-01 -3.28124717e-01 -2.25310579e-02
+  2.31267066e-01  4.28090100e-01  5.59305456e-01  6.23186617e-01
+  6.21460099e-01  5.59305456e-01  4.45355279e-01  2.86515637e-01
+  9.83251914e-02 -1.08856950e-01 -3.22945163e-01 -5.31853823e-01
+ -7.33856411e-01 -9.22046856e-01 -1.09815168e+00 -1.26735043e+00
+ -1.43309614e+00 -1.60056837e+00 -1.77667319e+00 -1.96486364e+00
+ -2.17031926e+00 -2.39304006e+00 -2.63475256e+00 -2.89200372e+00
+ -3.16479354e+00 -3.44966898e+00 -3.74317702e+00 -4.04531764e+00
+ -4.35263782e+00 -4.66168451e+00 -4.97418424e+00 -5.28841049e+00
+ -5.60263674e+00 -5.91686299e+00 -6.23281575e+00 -6.54704200e+00
+ -6.86299477e+00 -7.17894753e+00 -7.49317378e+00 -7.80912655e+00
+ -8.12335279e+00 -8.43930556e+00 -8.75180529e+00 -9.06430502e+00
+ -9.37335171e+00 -9.67894537e+00 -9.97763296e+00 -1.02676880e+01
+ -1.05422043e+01 -1.07994555e+01 -1.10325354e+01 -1.12379910e+01
+ -1.14106428e+01 -1.15487642e+01 -1.16540818e+01 -1.17283221e+01
+ -1.17801176e+01 -1.18163745e+01 -1.18474518e+01 -1.18802556e+01
+ -1.19216921e+01 -1.19717611e+01 -1.20235566e+01 -1.20718991e+01
+ -1.21012499e+01 -1.20977969e+01 -1.20494544e+01 -1.19458633e+01
+ -1.17818441e+01 -1.15573968e+01 -1.12794274e+01 -1.09634747e+01
+ -1.06233506e+01 -1.02797736e+01 -9.95173519e+00 -9.65650064e+00
+ -9.41133511e+00 -9.22487118e+00 -9.10228841e+00 -9.04703984e+00
+ -9.05567243e+00 -9.12300663e+00 -9.24386288e+00 -9.41306163e+00
+ -9.62369680e+00 -9.87404189e+00 -1.01571908e+01 -1.04731436e+01
+ -1.08149941e+01 -1.11810159e+01 -1.15608498e+01 -1.19475898e+01
+ -1.23308768e+01 -1.26951721e+01 -1.30283900e+01 -1.33132654e+01
+ -1.35411658e+01 -1.36982789e+01 -1.37794253e+01 -1.37828783e+01
+ -1.37103645e+01 -1.35687901e+01 -1.33685140e+01 -1.31216220e+01
+ -1.28419261e+01 -1.25415120e+01 -1.22290122e+01 -1.19130595e+01
+ -1.15953802e+01 -1.12777009e+01 -1.09617481e+01 -1.06406158e+01
+ -1.03177570e+01 -9.98799207e+00 -9.65650064e+00 -9.32155618e+00
+ -8.99351779e+00 -8.67411199e+00 -8.37369788e+00 -8.10090806e+00
+ -7.86092208e+00 -7.65719298e+00 -7.49662682e+00 -7.37749708e+00
+ -7.29980378e+00 -7.26009387e+00 -7.25491432e+00 -7.27908557e+00
+ -7.32570155e+00 -7.39303574e+00 -7.47590860e+00 -7.56741405e+00
+ -7.66755208e+00 -7.77114315e+00 -7.87300771e+00 -7.96969271e+00
+ -8.05774512e+00 -8.13371190e+00 -8.19241351e+00 -8.23039690e+00
+ -8.24593556e+00 -8.24248253e+00 -8.21831128e+00 -8.18032788e+00
+ -8.13198538e+00 -8.08018985e+00 -8.03012083e+00 -7.98523137e+00
+ -7.94724797e+00 -7.91962369e+00 -7.89717896e+00 -7.87818726e+00
+ -7.85401601e+00 -7.81948565e+00 -7.76769012e+00 -7.69862940e+00
+ -7.60712396e+00 -7.49835333e+00 -7.37404405e+00 -7.24455521e+00
+ -7.11679289e+00 -6.99938968e+00 -6.90270468e+00 -6.83191744e+00
+ -6.79393405e+00 -6.78875450e+00 -6.81465227e+00 -6.86644780e+00
+ -6.93896155e+00 -7.02010789e+00 -7.10298075e+00 -7.17549450e+00
+ -7.23246959e+00 -7.26527342e+00 -7.27045298e+00 -7.24800825e+00
+ -7.19966575e+00 -7.12887851e+00 -7.04427914e+00 -6.95277369e+00]","[ -3.57074826  -3.05470414  -2.54385509  -2.04512789  -1.5637176
+  -1.10828268  -0.6874816   -0.30997281   0.02251199   0.30477774
+   0.54375119   0.74635912   0.92125998   1.08750238   1.26067155
+   1.45635271   1.68666771   1.9585433    2.2719795    2.62351291
+   2.99409493   3.36987203   3.72313713   4.03310995   4.27901017
+   4.44178918   4.51278854   4.49200824   4.38464336   4.20108404
+   3.96037889   3.68157653   3.38026218   3.07548444   2.77936516
+   2.49883111   2.23907735   2.0001039    1.78191075   1.57930282
+   1.39228012   1.21564757   1.04421009   0.87969938   0.71692036
+   0.55760472   0.39828909   0.24070514   0.0831212   -0.07446274
+  -0.23204669  -0.38963063  -0.54721457  -0.70479852  -0.86238246
+  -1.01996641  -1.17755035  -1.33513429  -1.49271824  -1.65030218
+  -1.80788612  -1.96547007  -2.12305401  -2.28063796  -2.4382219
+  -2.59580584  -2.75338979  -2.91097373  -3.06855767  -3.22614162
+  -3.38372556  -3.54130951  -3.69889345  -3.85647739  -4.01406134
+  -4.17164528  -4.32922922  -4.48681317  -4.64266542  -4.79851767
+  -4.95436992  -5.10675879  -5.25741597  -5.40287807  -5.54141341
+  -5.67302198  -5.79424039  -5.90506866  -6.0020434   -6.08862798
+  -6.16482242  -6.23928516  -6.31547959  -6.40206418  -6.51289244
+  -6.65315947  -6.8349871   -7.06183871  -7.33890938  -7.6679308
+  -8.0437079   -8.46450898  -8.91994389  -9.40481757  -9.91047154
+ -10.42824735 -10.94948655 -11.46726237 -11.97464803 -12.46298509
+ -12.92534677 -13.356538   -13.74963202 -14.10116543 -14.40767486
+ -14.66742861 -14.88215838 -15.05186417 -15.18000935 -15.26486224
+ -15.30815454 -15.30988623 -15.26659394 -15.17481428 -15.03281556
+ -14.83886609 -14.59296587 -14.29684659 -13.95916671 -13.58858469
+ -13.19895406 -12.80759174 -12.43008295 -12.07854954 -11.77030841
+ -11.51055466 -11.30448335 -11.15382617 -11.05338805 -10.99624223]",-0.6537459826087803,2.17751571510208,5.792005,-0.04721500000000045
+003,5,1,csm,2b.png,1,1,240,244,240,1,1,358,neu_feedback_onset,10,"[-3.03518190e+00 -2.70943223e+00 -2.36121707e+00 -2.00364128e+00
+ -1.64232125e+00 -1.28661759e+00 -9.42146672e-01 -6.10780629e-01
+ -2.96263707e-01  5.14834247e-03  2.93455521e-01  5.76146325e-01
+  8.51348632e-01  1.12467881e+00  1.39426475e+00  1.65823431e+00
+  1.91097112e+00  2.14873093e+00  2.36776950e+00  2.55685408e+00
+  2.71411254e+00  2.83580064e+00  2.91817412e+00  2.96123298e+00
+  2.96497723e+00  2.93689536e+00  2.88260375e+00  2.80959089e+00
+  2.72721741e+00  2.65233243e+00  2.59429657e+00  2.56621470e+00
+  2.58119170e+00  2.64858818e+00  2.77589265e+00  2.96684935e+00
+  3.22145829e+00  3.53410309e+00  3.89729525e+00  4.30354627e+00
+  4.74349554e+00  5.20403817e+00  5.68330205e+00  6.17567081e+00
+  6.67927231e+00  7.19597868e+00  7.72766204e+00  8.27432241e+00
+  8.83221552e+00  9.39385288e+00  9.94800174e+00  1.04796851e+01
+  1.09701817e+01  1.14007704e+01  1.17527298e+01  1.20092109e+01
+  1.21627251e+01  1.22039118e+01  1.21327711e+01  1.19530471e+01
+  1.16741006e+01  1.13052920e+01  1.08597264e+01  1.03505085e+01
+  9.79261540e+00  9.19353555e+00  8.56824596e+00  7.92236300e+00
+  7.26524728e+00  6.59877095e+00  5.93229462e+00  5.26581828e+00
+  4.60683045e+00  3.96094748e+00  3.33565789e+00  2.73845016e+00
+  2.18430130e+00  1.68069980e+00  1.24449478e+00  8.88791122e-01
+  6.21077314e-01  4.54458231e-01  3.87061747e-01  4.20759989e-01
+  5.48064457e-01  7.57742405e-01  1.03856109e+00  1.37554350e+00
+  1.75932903e+00  2.17681280e+00  2.62425057e+00  3.09789807e+00
+  3.59401107e+00  4.11071744e+00  4.64240081e+00  5.18344480e+00
+  5.72261667e+00  6.23932304e+00  6.71671480e+00  7.13419857e+00
+  7.46930886e+00  7.70332443e+00  7.82501252e+00  7.82314040e+00
+  7.69770805e+00  7.45058761e+00  7.09113970e+00  6.63246919e+00
+  6.08768095e+00  5.47549623e+00  4.80901990e+00  4.10510107e+00
+  3.37497250e+00  2.63173906e+00  1.88663350e+00  1.15088856e+00
+  4.31992736e-01 -2.55076968e-01 -9.00959932e-01 -1.49442341e+00
+ -2.02423465e+00 -2.47916091e+00 -2.85358582e+00 -3.14376512e+00
+ -3.34595457e+00 -3.46389842e+00 -3.50508516e+00 -3.47325904e+00
+ -3.38152494e+00 -3.24111560e+00 -3.05951952e+00 -2.84796945e+00
+ -2.61395388e+00 -2.36496132e+00 -2.10473601e+00 -1.83702220e+00
+ -1.56743627e+00 -1.29410608e+00 -1.02264803e+00 -7.51189969e-01
+ -4.85348285e-01 -2.23250851e-01  2.76138369e-02  2.65373653e-01
+  4.82540099e-01  6.71624676e-01  8.27011013e-01  9.39338485e-01
+  1.00111859e+00  1.00673497e+00  9.56187606e-01  8.51348632e-01
+  6.97834420e-01  5.06877718e-01  2.97199770e-01  8.19054484e-02
+ -1.18411877e-01 -2.83158836e-01 -3.99230557e-01 -4.57266417e-01
+ -4.49777919e-01 -3.78637187e-01 -2.51332719e-01 -7.72251370e-02
+  1.24964313e-01  3.38386509e-01  5.42448084e-01  7.20299914e-01
+  8.55092881e-01  9.29977862e-01  9.37466360e-01  8.71942002e-01
+  7.27788412e-01  5.12494091e-01  2.31675411e-01 -1.03434880e-01
+ -4.79731912e-01 -8.76622313e-01 -1.27725696e+00 -1.66478674e+00
+ -2.01861828e+00 -2.32190245e+00 -2.56340652e+00 -2.73189773e+00
+ -2.82363183e+00 -2.83486458e+00 -2.76746809e+00 -2.62518663e+00
+ -2.41738080e+00 -2.15153912e+00 -1.83702220e+00 -1.48693491e+00
+ -1.10689363e+00 -7.10003229e-01 -3.01880081e-01  1.09987316e-01
+  5.16238340e-01  9.07512368e-01  1.27819303e+00  1.61704757e+00
+  1.91284324e+00  2.15996368e+00  2.34904826e+00  2.47260848e+00
+  2.52877221e+00  2.51753947e+00  2.44452661e+00  2.31535002e+00
+  2.14498668e+00  1.94466936e+00  1.73124716e+00  1.51969709e+00
+  1.32125189e+00  1.14527218e+00  9.97374345e-01  8.83174749e-01
+  8.00801269e-01  7.48381782e-01  7.22172039e-01  7.16555665e-01
+  7.27788412e-01  7.52126031e-01  7.85824273e-01  8.25138888e-01
+  8.70069877e-01  9.20617239e-01  9.73036726e-01  1.02732834e+00
+  1.08723632e+00  1.14714431e+00  1.21079654e+00  1.27257665e+00
+  1.33435676e+00  1.39052050e+00  1.43732361e+00  1.46914973e+00
+  1.48412672e+00  1.47289398e+00  1.43170724e+00  1.35682226e+00
+  1.24262266e+00  1.08910845e+00  8.94407496e-01  6.64136178e-01
+  4.00166619e-01  1.09987316e-01 -1.98913232e-01 -5.22790776e-01
+ -8.54156819e-01 -1.18552286e+00 -1.51688890e+00 -1.84638282e+00
+ -2.17400461e+00 -2.50349853e+00 -2.83860882e+00 -3.17933549e+00
+ -3.52755065e+00 -3.88512644e+00 -4.24644647e+00 -4.60776651e+00]","[-0.64464257 -0.23673696  0.15936974  0.52176522  0.83865057  1.08811351
+  1.25835511  1.33757645  1.32072085  1.20441718  0.99372213  0.70380574
+  0.3481525  -0.05469643 -0.48114321 -0.91096111 -1.32729453 -1.7116023
+ -2.05545662 -2.35211525 -2.60326375 -2.80721656 -2.97408704 -3.10893187
+ -3.22017885 -3.31457024 -3.39884826 -3.4780696  -3.55560537 -3.63314115
+ -3.71067693 -3.78989827 -3.86911961 -3.95002651 -4.03261896 -4.11521142
+ -4.19780388 -4.28039634 -4.3629888  -4.44558126 -4.52817372 -4.61245174
+ -4.6950442  -4.77763666 -4.86191468 -4.94450714 -5.0270996  -5.10969206
+ -5.19397008 -5.27656254 -5.35915499 -5.44174745 -5.52433991 -5.60524681
+ -5.68615371 -5.76368949 -5.83953971 -5.9120188  -5.97775566 -6.03675027
+ -6.08563152 -6.12271385 -6.14462614 -6.15136838 -6.1378839  -6.10417269
+ -6.05192032 -5.97775566 -5.8867354  -5.77717397 -5.6524425  -5.51254099
+ -5.36084056 -5.19902676 -5.02204292 -4.83326015 -4.62930734 -4.40512781
+ -4.16072155 -3.89103189 -3.59437326 -3.26906011 -2.9201491  -2.55269694
+ -2.17007473 -1.78745252 -1.41157255 -1.05760487 -0.73397727 -0.45080313
+ -0.21482467 -0.02772747  0.11217404  0.20656543  0.26387448  0.29084345
+  0.29421457  0.28241564  0.25544668  0.21667879  0.16442642  0.09194732
+ -0.01087186 -0.15245894 -0.34629838 -0.60250356 -0.92781672 -1.32729453
+ -1.79925144 -2.33188853 -2.91340686 -3.52189417 -4.13206703 -4.71358536
+ -5.23948021 -5.68278259 -6.01652355 -6.22384748 -6.29295545 -6.22216192
+ -6.01146687 -5.67604035 -5.23273797 -4.703472   -4.1118403  -3.48481184
+ -2.84598445 -2.21558486 -1.61046868 -1.04412039 -0.52496778 -0.05806756
+  0.35489474  0.7139191   1.01731998  1.26172623  1.44713788  1.5651271
+  1.61400836  1.58703939]",7.955312387380012,-1.839704892086204,5.341525,0.3476700000000008
+003,5,1,csp,23a.png,1,1,196,15,194,1,1,259,pos_feedback_onset,11,"[ 1.61265481  1.64834133  1.69529727  1.74037497  1.76854854  1.75915735
+  1.69154079  1.55067297  1.3271627   1.01725349  0.62658007  0.17204657
+ -0.33132111 -0.86098412 -1.3944036  -1.91279718 -2.40113896 -2.85003775
+ -3.2519806  -3.60696751 -3.911242   -4.16856056 -4.37892317 -4.5404516
+ -4.65126762 -4.70949299 -4.7151277  -4.66441529 -4.55923398 -4.39958378
+ -4.18546469 -3.92063319 -3.60321104 -3.23319823 -2.80871653 -2.3278877
+ -1.7888335  -1.19155394 -0.54356196  0.14575124  0.86323801  1.58823772
+  2.2963333   2.96122942  3.55850898  4.06938961  4.47696717  4.77185048
+  4.95591776  5.03668198  5.02353432  4.93713539  4.79438933  4.61220028
+  4.40747238  4.19335329  3.97735597  3.76511512  3.56226546  3.36692874
+  3.1847397   3.01382007  2.85604811  2.71705853  2.60248604  2.51796534
+  2.47288764  2.47476588  2.53299124  2.65319845  2.83914397  3.08894958
+  3.39698055  3.75384569  4.1388844   4.53143606  4.91084006  5.24892283
+  5.526902    5.72411695  5.82554178  5.82929825  5.73350813  5.55131909
+  5.29587877  4.99536075  4.67230388  4.3586382   4.08065904  3.86278347
+  3.72003741  3.66369029  3.68810738  3.78389749  3.92664355  4.09005022
+  4.238431    4.33797759  4.35675996  4.27036103  4.06187666  3.72567213
+  3.26926039  2.70954558  2.06906655  1.37975335  0.67541425 -0.01014248
+ -0.64686503 -1.21409279 -1.68928691 -2.06681267 -2.34103536 -2.51383322
+ -2.5927192  -2.58520625 -2.50632027 -2.36733069 -2.18138516 -1.95787489
+ -1.70806928 -1.44511602 -1.1746498  -0.90606182 -0.6449868  -0.40081591
+ -0.17542739  0.02930051  0.20773308  0.36926151  0.51576405  0.65851011
+  0.80876912  0.98532345  1.20132078  1.46990876  1.80799153  2.21744732
+  2.70015439  3.24672154  3.84024462  4.45442832  5.05922083  5.6170574
+  6.09037328  6.4509949   6.67262694  6.74024349  6.65196633  6.41906486
+  6.06032148  5.60954445  5.09866382  4.56712258  4.05248547  3.58480431
+  3.19225265  2.88797815  2.68512849  2.5855819   2.58370366  2.67010259
+  2.83163102  3.05326306  3.32185104  3.6242473   3.94354769  4.27223927
+  4.60093085  4.92210949  5.23014045  5.52126728  5.79548998  6.04905205
+  6.27819704  6.4810467   6.65196633  6.78907767  6.88486779  6.93745844
+  6.94309316  6.90365017  6.82100771  6.70267874  6.55429797  6.38901306
+  6.21809344  6.05093029  5.89691481  5.76543817  5.65837863  5.57573618
+  5.51563257  5.46867663  5.42923364  5.38603418  5.32968705  5.25455754
+  5.15501095  5.03104727  4.88830121  4.73052925  4.56900082  4.41310709
+  4.27223927  4.15578854  4.06938961  4.01679896  3.99613834  4.00552953
+  4.04309428  4.10319789  4.18020563  4.27036103  4.36990763  4.47508893
+  4.58214848  4.6929645   4.80190228  4.90896182  5.01226489  5.11181149
+  5.2076016   5.29587877  5.38039946  5.46116368  5.54380614  5.62832683
+  5.72411695  5.83493297  5.9664096   6.12042508  6.30073589  6.50358556
+  6.72146112  6.94309316  7.15533401  7.34127953  7.48026911  7.55915509
+  7.55727686  7.46899969  7.28681064  7.01446619  6.6557228   6.22748463
+  5.7466558   5.23014045  4.70047745  4.17457092  3.66744676  3.18849617
+  2.74147562  2.32826334  1.94885935  1.59762891  1.27269381  0.96466284
+  0.67541425  0.39931332]","[ -2.30438367  -2.27704714  -2.20358023  -2.08569146  -1.92679791
+  -1.72689957  -1.4894135   -1.21433972  -0.90338674  -0.55997164
+  -0.18751148   0.20886814   0.62575015   1.0545919    1.4868507
+   1.91740098   2.33257446   2.72895408   3.09628864   3.42774401
+   3.71990313   3.96934892   4.17437286   4.33668348   4.45798931
+   4.54512449   4.59979754   4.63055113   4.64080233   4.6339682
+   4.61517433   4.58612928   4.54683302   4.49728557   4.44090398
+   4.37597974   4.30080429   4.21708618   4.12311688   4.02060491
+   3.90955027   3.79166151   3.66693861   3.53709011   3.40382455
+   3.26885046   3.13558489   3.0057364    2.8810135    2.7665418
+   2.66402983   2.57860319   2.51367894   2.46925709   2.44362909
+   2.43679496   2.4385035    2.44021203   2.42654377   2.38383045
+   2.29498674   2.14634438   1.92936071   1.63720159   1.2732841
+   0.84273382   0.35921903  -0.16359202  -0.71032253  -1.26730423
+  -1.82257741  -2.36759938  -2.89553603  -3.40638735  -3.90015334
+  -4.38025107  -4.844972    -5.3028588   -5.75220294  -6.19642148
+  -6.63893148  -7.07802442  -7.51540883  -7.95279324  -8.38846911
+  -8.82243645  -9.25298673  -9.68011994 -10.10383608 -10.51900956
+ -10.92734891 -11.32372853 -11.70814842 -12.07890005 -12.43256634
+ -12.76914731 -13.08693442 -13.38934473 -13.67466972 -13.94461791
+ -14.20089783 -14.44521803 -14.67928703 -14.9013963  -15.11325437
+ -15.30973565 -15.4891316  -15.64460808 -15.76933098 -15.85475762
+ -15.89063681 -15.86671735 -15.77616511 -15.61043743 -15.36782576
+ -15.04833012 -14.6570761  -14.20602343 -13.70884038 -13.18773786
+ -12.66150975 -12.15749256 -11.69789722 -11.30322614 -10.99398169
+ -10.78041509 -10.66765192 -10.65569219 -10.73599323 -10.89830385
+ -11.12553872 -11.40061251 -11.70814842 -12.03106113 -12.36080797
+ -12.68884627 -13.00834191 -13.31587782 -13.61316254 -13.89677899]",5.191213980098198,3.2594962390921047,5.32414,0.6341899999999994
+003,5,1,csm,51b.png,1,1,336,344,335,1,1,549,neu_feedback_onset,12,"[  0.73637153   0.68224029   0.62997564   0.57957759   0.52917954
+   0.48064808   0.43025003   0.37798538   0.32385414   0.26412312
+   0.19879231   0.12039534   0.02706562  -0.09052983  -0.2379908
+  -0.42465025  -0.65797456  -0.9491633   -1.30194966  -1.71820023
+  -2.19231523  -2.71869488  -3.27867322  -3.84798454  -4.39676333
+  -4.89327746  -5.30019506  -5.58578402  -5.72017882  -5.68471352
+  -5.46818856  -5.07247053  -4.5068924   -3.79758649  -2.97255173
+  -2.06911999  -1.12462318  -0.17825977   0.73637153   1.58380543
+   2.3397762    2.98375129   3.50079797   3.87785006   4.11117437
+   4.2007709    4.14850626   3.96558      3.66505828   3.26187387
+   2.7802925    2.23898009   1.66220239   1.06675875   0.46944851
+  -0.11852875  -0.68597348  -1.23288566  -1.75179893  -2.24457988
+  -2.7093619   -3.14241183  -3.54186305  -3.90024919  -4.21010388
+  -4.46769392  -4.66741953  -4.80554752  -4.88394449  -4.90821022
+  -4.89327746  -4.85407898  -4.8111473   -4.78688157  -4.79994774
+  -4.87087833  -5.00900632  -5.2180649   -5.49245429  -5.81724173
+  -6.17002809  -6.51908126  -6.83266914  -7.07905961  -7.23025376
+  -7.26945225  -7.1835889   -6.9819967   -6.67774179  -6.30068971
+  -5.88817232  -5.47752154  -5.11353561  -4.82794665  -4.65248677
+  -4.60582191  -4.69541844  -4.91940978  -5.26846295  -5.7257786
+  -6.27082419  -6.88120059  -7.53264207  -8.20274949  -8.87285692
+  -9.5205652  -10.12907501 -10.68345357 -11.16503495 -11.56261958
+ -11.86314129 -12.05353393 -12.12633112 -12.07966625 -11.91353934
+ -11.63168357 -11.24529852 -10.77305011 -10.23173771  -9.64562704
+  -9.04271701  -8.45100656  -7.8947614   -7.40198046  -6.99132967
+  -6.68334158  -6.48174937  -6.39215284  -6.405219    -6.5060151
+  -6.6758752   -6.88680038  -7.1163915   -7.33291646  -7.51957591
+  -7.65397071  -7.7267679   -7.73236768  -7.67077006  -7.54757483
+  -7.37024835  -7.14812361  -6.89053357  -6.6086778   -6.31002268
+  -5.9964348   -5.67351396  -5.34312673  -5.00527313  -4.65995315
+  -4.31089998  -3.95811362  -3.60719386  -3.26187387  -2.93148665
+  -2.62349856  -2.34350938  -2.09898551  -1.89366011  -1.73126639
+  -1.60993775  -1.52780759  -1.48114273  -1.46061019  -1.46247678
+  -1.47740954  -1.49794208  -1.51474143  -1.52034121  -1.50540846
+  -1.46247678  -1.38034663  -1.2534182   -1.07422513  -0.83530104
+  -0.53291273  -0.1707934    0.24732377   0.71397239   1.21421972
+   1.73686617   2.26324582   2.7784259    3.26560706   3.71172315
+   4.10930777   4.45089457   4.74021671   4.97727421   5.16953344
+   5.33192717   5.47192175   5.60631656   5.74817774   5.90870486
+   6.09723091   6.32122225   6.58441207   6.88306719   7.21532101
+   7.56997396   7.93955967   8.30914538   8.67126471   9.01098491
+   9.32270619   9.59896217   9.83601967  10.03574528  10.2000056
+  10.33066721  10.43519651  10.51732666  10.58452407  10.63678871
+  10.68158698  10.71891887  10.75438416  10.78611627  10.81598178
+  10.84584729  10.87571281  10.90557832  10.93357724  10.96344275
+  10.99144166  11.02130718  11.04930609  11.07917161  11.10717052
+  11.13703603  11.16503495  11.19490046  11.22289938  11.25276489
+  11.28076381  11.31062932  11.33862824  11.36849375  11.39649267
+  11.42635818  11.4543571   11.48422261  11.51222153  11.54208704
+  11.57008596  11.59995147  11.62795039  11.6578159   11.68581482
+  11.71568033  11.74367924  11.77354476  11.80154367  11.83140919
+  11.8594081   11.88927361  11.91727253  11.94713804  11.97513696]","[-4.20809759 -3.99021588 -3.78877806 -3.60172867 -3.42084573 -3.22557438
+ -2.99535974 -2.70142497 -2.31499324 -1.81756517 -1.18858588 -0.42599987
+  0.46402639  1.46299351  2.54212466  3.66853202  4.80110585  5.90490285
+  6.94292424  7.89255965  8.73942066  9.47528533 10.1083756  10.6510244
+ 11.12173113 11.54516164 11.93775983 12.3159696  12.6900684  13.06005622
+ 13.41771111 13.75070015 14.04257943 14.27484956 14.43517762 14.50917518
+ 14.49684226 14.39817884 14.22757334 13.99941419 13.73425625 13.45470989
+ 13.17927452 12.92850499 12.71267876 12.54207327 12.41874399 12.34474643
+ 12.31185862 12.31391411 12.34885741 12.40641107 12.48040863 12.56673912
+ 12.65923608 12.75995498 12.86272938 12.96755926 13.07444463 13.18133
+ 13.28821537 13.39510074 13.50198612 13.60887149 13.71781234 13.82469771
+ 13.93158309 14.03846846 14.14740931 14.25429469 14.36118006 14.46806543
+ 14.5749508  14.68389166 14.79077703 14.8976624  15.00454777 15.11348863
+ 15.220374   15.32725937 15.43414474 15.54103011 15.64997097 15.75685634
+ 15.86374171 15.97062708 16.07956794 16.18645331 16.29333868 16.40022405
+ 16.50710942 16.61605028 16.72293565 16.82982102 16.93670639 17.04564725
+ 17.15253262 17.25941799 17.36630336 17.47524422 17.58212959 17.68901496
+ 17.79590033 17.9027857  18.00967107 18.11450095 18.21933084 18.32004974
+ 18.41665767 18.50504365 18.58520768 18.64687232 18.68798208 18.69825952
+ 18.66948269 18.59137415 18.45365646 18.25016315 17.97267229 17.61707288
+ 17.17925396 16.6633265  16.07340147 15.41770083 14.70650202 13.9459715
+ 13.15460866 12.33857997 11.51227383 10.68802319  9.88021644  9.10324202
+  8.36943284  7.69317732  7.09297486  6.57704739  6.15567238  5.83707175
+  5.61507906  5.48558332]",11.6862592424204,16.345650844548608,5.35735,
+003,5,1,csp,24a.png,1,1,136,348,137,1,1,380,pos_feedback_onset,13,"[ 0.68442408  1.10047542  1.44587653  1.71081488  1.88351544  1.95612817
+  1.92669058  1.79324015  1.56558941  1.2515884   0.86104965  0.40574818
+ -0.09665344 -0.63634267 -1.203507   -1.78244636 -2.36727324 -2.94621261
+ -3.50945192 -4.04325364 -4.53388022 -4.96955662 -5.32869528 -5.59755864
+ -5.76240917 -5.80754682 -5.72512155 -5.51513338 -5.1815073  -4.73601837
+ -4.19829164 -3.58991468 -2.93836258 -2.27307294 -1.61759583 -0.99351882
+ -0.41457946  0.10940973  0.57844874  1.0023501   1.39092635  1.75987754
+  2.12294121  2.4938549   2.87458113  3.26315738  3.65369614  4.03049735
+  4.37589846  4.67027441  4.89400013  5.03726309  5.09025076  5.05100063
+  4.92147522  4.71344955  4.43673616  4.10311008  3.72434636  3.31418254
+  2.88243115  2.43694222  1.98360326  1.53222681  1.08870038  0.660874
+  0.26052271 -0.10057845 -0.40869194 -0.6461552  -0.79530568 -0.84044333
+ -0.7697931  -0.57550498 -0.25954146  0.16632241  0.68246157  1.25747592
+  1.85211534  2.42516718  2.93345632  3.33577011  3.60070846  3.70079629
+  3.62818355  3.37698274  2.96289391  2.40554212  1.73436496  0.98468754
+  0.19576001 -0.59709255 -1.36247001 -2.06897228 -2.69893681 -3.23666354
+ -3.67822746 -4.02559108 -4.2787544  -4.44752994 -4.54173024 -4.57116784
+ -4.54173024 -4.4651925  -4.34547961 -4.19044161 -4.00400351 -3.79205283
+ -3.55655207 -3.30142625 -3.03060038 -2.74603696 -2.45166102 -2.15139755
+ -1.84132155 -1.52732054 -1.20546951 -0.87576844 -0.53625485 -0.18104121
+  0.19183499  0.59414879  1.02786268  1.50475172  2.02874091  2.60571776
+  3.2376448   3.92452201  4.65849937  5.42583934  6.21672939  7.00761943
+  7.78280943  8.5207118   9.203664    9.81989098 10.35565521 10.81095667
+ 11.18187037 11.4703588  11.68427198 11.83145996 11.91781024 11.95509786
+ 11.95117284 11.90996021 11.843235   11.75492221 11.64894687 11.53119649
+ 11.40167107 11.26625814 11.12299518 10.96991968 10.80899417 10.6343311
+ 10.44200549 10.2280923   9.98474151  9.70606562  9.38617709  9.0172259
+  8.59921205  8.13213555  7.6199214   7.07238214  6.50325531  5.92824096
+  5.36696415  4.84101246  4.37197345  3.97554717  3.66939619  3.46137052
+  3.35147016  3.33577011  3.39857031  3.51435819  3.65958365  3.80284662
+  3.91274697  3.96769715  3.95003459  3.84994677  3.67724621  3.44370796
+  3.18073211  2.91971877  2.70776809  2.58413019  2.59001771  2.75683075
+  3.10615687  3.64584611  4.36804843  5.25510129  6.27167956  7.37853312
+  8.52856183  9.67270301 10.76581903 11.76865976 12.6517876  13.39165248
+ 13.98236688 14.42589331 14.73008179 14.91455738 15.00090766 15.0126827
+ 14.97343257 14.90278234 14.81839457 14.73204429 14.65354404 14.58485632
+ 14.52794364 14.48280599 14.44551837 14.41215576 14.38271817 14.35328057
+ 14.31795546 14.28066784 14.2355302  14.18450503 14.12955485 14.06871716
+ 14.00591696 13.94311675 13.88227906 13.82144136 13.76452868 13.7095785
+ 13.65659083 13.60164066 13.54472797 13.48192777 13.41324005 13.3367023
+ 13.25231453 13.16203924 13.06391392 12.95990109 12.85392575 12.74402539
+ 12.63216253 12.52029967 12.40843681 12.29657395 12.1866736  12.08069826
+ 11.97668542 11.8746351  11.77454727 11.67249695 11.5645591  11.44288371
+ 11.29962075 11.12299518]","[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ nan nan nan nan nan nan nan nan nan nan nan nan nan nan]",11.682358540091522,,5.095525000000001,0.9254949999999988
+003,5,1,csp,49a.png,1,1,132,187,131,1,1,343,pos_feedback_onset,14,"[ 8.13013617e-01  6.51035186e-01  4.95805855e-01  3.47325626e-01
+  2.07281774e-01  7.73615738e-02 -4.41222498e-02 -1.55482422e-01
+ -2.53344391e-01 -3.37708157e-01 -4.05199170e-01 -4.47381053e-01
+ -4.62566531e-01 -4.44006503e-01 -3.88326417e-01 -2.92151723e-01
+ -1.52107871e-01  3.18051399e-02  2.52838208e-01  5.05929507e-01
+  7.84329937e-01  1.07622857e+00  1.36643992e+00  1.64652763e+00
+  1.90130620e+00  2.11896472e+00  2.29275408e+00  2.41423790e+00
+  2.48004164e+00  2.49522712e+00  2.45979434e+00  2.38049240e+00
+  2.26575768e+00  2.12402655e+00  1.96710994e+00  1.80175696e+00
+  1.63471670e+00  1.47105100e+00  1.31413439e+00  1.16565416e+00
+  1.02392303e+00  8.83879181e-01  7.45522604e-01  6.05478752e-01
+  4.62060349e-01  3.11892845e-01  1.56663514e-01 -1.94036663e-03
+ -1.63918798e-01 -3.25897230e-01 -4.86188386e-01 -6.39730441e-01
+ -7.83148844e-01 -9.13069044e-01 -1.02105467e+00 -1.10035661e+00
+ -1.14422576e+00 -1.14085121e+00 -1.08179658e+00 -9.56938203e-01
+ -7.59526989e-01 -4.84501111e-01 -1.35235118e-01  2.84896439e-01
+  7.67457183e-01  1.29557436e+00  1.85237522e+00  2.41761245e+00
+  2.96935149e+00  3.48397046e+00  3.94628390e+00  4.33266995e+00
+  4.63300496e+00  4.83379073e+00  4.92827814e+00  4.91309267e+00
+  4.78992157e+00  4.56382667e+00  4.24493164e+00  3.84336011e+00
+  3.37429757e+00  2.85630404e+00  2.30287773e+00  1.73089140e+00
+  1.15553051e+00  5.86918723e-01  3.85542413e-02 -4.82813835e-01
+ -9.70436405e-01 -1.42262619e+00 -1.83600865e+00 -2.20720922e+00
+ -2.53622791e+00 -2.82137744e+00 -3.05928326e+00 -3.24825810e+00
+ -3.38492740e+00 -3.47097844e+00 -3.50134940e+00 -3.48278937e+00
+ -3.41698563e+00 -3.31406184e+00 -3.18076709e+00 -3.03397413e+00
+ -2.88211935e+00 -2.74207550e+00 -2.62227895e+00 -2.53285336e+00
+ -2.47548600e+00 -2.44848959e+00 -2.45017687e+00 -2.47042417e+00
+ -2.49910785e+00 -2.52441698e+00 -2.53791519e+00 -2.53116608e+00
+ -2.49910785e+00 -2.44511504e+00 -2.37087493e+00 -2.28313661e+00
+ -2.19033647e+00 -2.10259815e+00 -2.02835804e+00 -1.97267795e+00
+ -1.94061972e+00 -1.93387062e+00 -1.95074337e+00 -1.98955070e+00
+ -2.04523079e+00 -2.11272180e+00 -2.18864919e+00 -2.26288931e+00
+ -2.33544215e+00 -2.39955861e+00 -2.44848959e+00 -2.48223510e+00
+ -2.49573330e+00 -2.48560965e+00 -2.45186414e+00 -2.39112223e+00
+ -2.30675847e+00 -2.20046012e+00 -2.07391447e+00 -1.93218334e+00
+ -1.78370311e+00 -1.63353561e+00 -1.49180448e+00 -1.36525883e+00
+ -1.26402231e+00 -1.19821857e+00 -1.17797127e+00 -1.21340405e+00
+ -1.31126602e+00 -1.47999355e+00 -1.71958665e+00 -2.02835804e+00
+ -2.39955861e+00 -2.81631561e+00 -3.26006903e+00 -3.70044789e+00
+ -4.11045579e+00 -4.45803451e+00 -4.71281308e+00 -4.84948239e+00
+ -4.85454421e+00 -4.72124946e+00 -4.45297268e+00 -4.06321208e+00
+ -3.57558951e+00 -3.01878865e+00 -2.42149319e+00 -1.81407407e+00
+ -1.22184043e+00 -6.63352295e-01 -1.50420596e-01  3.08518294e-01
+  7.16838923e-01  1.07791584e+00  1.39849816e+00  1.68702224e+00
+  1.95361174e+00  2.20164121e+00  2.43617248e+00  2.65889283e+00
+  2.86980224e+00  3.06552618e+00  3.24606464e+00  3.40804307e+00
+  3.55314875e+00  3.67631985e+00  3.77924365e+00  3.86192014e+00
+  3.92097477e+00  3.95640755e+00  3.96484393e+00  3.94628390e+00
+  3.89904019e+00  3.82142553e+00  3.71175263e+00  3.57339605e+00
+  3.40635580e+00  3.21400641e+00  2.99803517e+00  2.76519117e+00
+  2.51547442e+00  2.25394675e+00  1.98566997e+00  1.71064409e+00
+  1.43055639e+00  1.14878141e+00  8.65319152e-01  5.80169622e-01
+  2.95020091e-01  1.15578360e-02 -2.73591695e-01 -5.55366674e-01
+ -8.35454379e-01 -1.11216753e+00 -1.38044431e+00 -1.64197199e+00
+ -1.88831418e+00 -2.11778363e+00 -2.32363122e+00 -2.50079513e+00
+ -2.64590081e+00 -2.75219915e+00 -2.82137744e+00 -2.85006112e+00
+ -2.84499930e+00 -2.81125379e+00 -2.75894825e+00 -2.69820634e+00
+ -2.64252626e+00 -2.60203165e+00 -2.58347162e+00 -2.59359527e+00
+ -2.63408988e+00 -2.70158089e+00 -2.79100649e+00 -2.89730483e+00
+ -3.01372683e+00 -3.13352338e+00 -3.24994537e+00 -3.35793100e+00
+ -3.45916752e+00 -3.55028038e+00 -3.63126960e+00 -3.70213516e+00
+ -3.76287707e+00 -3.81180806e+00 -3.84724084e+00 -3.86580087e+00
+ -3.86242632e+00 -3.83205536e+00 -3.76962618e+00 -3.66838966e+00
+ -3.52665853e+00 -3.34443279e+00 -3.12339972e+00 -2.87537025e+00]","[ 1.66306865e+00  1.62345742e+00  1.55456834e+00  1.44951248e+00
+  1.31001208e+00  1.13778937e+00  9.36288790e-01  7.14121488e-01
+  4.76454141e-01  2.33620113e-01 -9.21391525e-03 -2.50325716e-01
+ -4.87993063e-01 -7.23938182e-01 -9.63327756e-01 -1.20616178e+00
+ -1.45932918e+00 -1.72282993e+00 -1.99666405e+00 -2.27910930e+00
+ -2.56499901e+00 -2.85088871e+00 -3.13161174e+00 -3.40027917e+00
+ -3.65344656e+00 -3.88939168e+00 -4.10639230e+00 -4.30617065e+00
+ -4.48872673e+00 -4.65750499e+00 -4.81594989e+00 -4.96406142e+00
+ -5.10700628e+00 -5.24650668e+00 -5.38084040e+00 -5.51517411e+00
+ -5.64778560e+00 -5.77867487e+00 -5.91128636e+00 -6.04217562e+00
+ -6.17306488e+00 -6.30567637e+00 -6.43656564e+00 -6.56745490e+00
+ -6.69834416e+00 -6.82923343e+00 -6.96012269e+00 -7.09101195e+00
+ -7.22362345e+00 -7.35451271e+00 -7.48540197e+00 -7.61629124e+00
+ -7.74718050e+00 -7.87806976e+00 -8.01068125e+00 -8.14157052e+00
+ -8.27245978e+00 -8.40334904e+00 -8.53423831e+00 -8.66512757e+00
+ -8.79773906e+00 -8.92862832e+00 -9.05951759e+00 -9.19040685e+00
+ -9.32129611e+00 -9.45218538e+00 -9.58307464e+00 -9.71224168e+00
+ -9.83968649e+00 -9.96713129e+00 -1.00894094e+01 -1.02065209e+01
+ -1.03150212e+01 -1.04131881e+01 -1.04958550e+01 -1.05561330e+01
+ -1.05940220e+01 -1.06009109e+01 -1.05767997e+01 -1.05182440e+01
+ -1.04269659e+01 -1.03098545e+01 -1.01755208e+01 -1.00325759e+01
+ -9.89479775e+00 -9.77596408e+00 -9.68985272e+00 -9.64851927e+00
+ -9.66057486e+00 -9.73290840e+00 -9.86551989e+00 -1.00584093e+01
+ -1.03064100e+01 -1.06026331e+01 -1.09384674e+01 -1.12984129e+01
+ -1.16738584e+01 -1.20510261e+01 -1.24213050e+01 -1.27743615e+01
+ -1.31033069e+01 -1.34064189e+01 -1.36836975e+01 -1.39334204e+01
+ -1.41573100e+01 -1.43605328e+01 -1.45413666e+01 -1.47049782e+01
+ -1.48496453e+01 -1.49736456e+01 -1.50752570e+01 -1.51510350e+01
+ -1.51992574e+01 -1.52147574e+01 -1.51992574e+01 -1.51475906e+01
+ -1.50649237e+01 -1.49529789e+01 -1.48152007e+01 -1.46567558e+01
+ -1.44862553e+01 -1.43105882e+01 -1.41331988e+01 -1.39609761e+01
+ -1.37990867e+01 -1.36475307e+01 -1.35063081e+01 -1.33719744e+01
+ -1.32410851e+01 -1.31050292e+01 -1.29586399e+01 -1.27950283e+01
+ -1.26090277e+01 -1.23954716e+01 -1.21560820e+01 -1.18908590e+01
+ -1.16084138e+01 -1.13121907e+01 -1.10142454e+01 -1.07231890e+01]",1.2511146562640563,2.3780977187470852e-14,5.926715,-0.03836499999999976
+003,6,1,csp,50a.png,1,1,304,313,306,1,1,350,pos_feedback_onset,1,[],[],,,,
+003,6,1,csp,63a.png,1,1,124,138,122,1,1,399,pos_feedback_onset,2,[],[],,,,
+003,6,1,csm,23b.png,1,1,192,177,192,1,1,348,neu_feedback_onset,3,[],[],,,,
+003,6,1,csm,48b.png,1,1,120,113,121,1,1,531,neu_feedback_onset,4,[],[],,,,
+003,6,1,csp,1a.png,1,1,160,163,160,1,1,344,pos_feedback_onset,5,[],[],,,,
+003,6,1,csm,11b.png,1,1,12,13,11,1,1,322,neu_feedback_onset,6,[],[],,,,
+003,6,1,csp,61a.png,1,1,264,266,262,1,1,289,pos_feedback_onset,7,[],[],,,,
+003,6,1,csp,37a.png,1,1,0,7,1,1,1,317,pos_feedback_onset,8,[],[],,,,
+003,6,1,csm,60b.png,1,1,276,284,275,1,1,457,neu_feedback_onset,9,[],[],,,,
+003,6,1,csp,43a.png,1,1,340,337,339,1,1,466,neg_feedback_onset,10,[],[],,,,
+003,6,1,csm,12b.png,1,1,128,135,128,1,1,702,neu_feedback_onset,11,[],[],,,,
+003,6,1,csm,32b.png,1,1,140,135,140,1,1,442,neu_feedback_onset,12,[],[],,,,
+003,6,1,csp,45a.png,1,1,176,224,178,1,1,338,pos_feedback_onset,13,[],[],,,,
+003,6,1,csm,39b.png,1,1,52,122,53,1,1,357,neu_feedback_onset,14,[],[],,,,
