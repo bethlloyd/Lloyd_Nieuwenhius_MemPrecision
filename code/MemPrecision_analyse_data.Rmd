@@ -1,0 +1,763 @@
+---
+title: "HRBP_MP Behavioral Data"
+output: 
+  html_notebook: 
+    code_folding: hide
+    theme: spacelab
+    toc: true
+    toc_float: true
+    fontsize: 6pt
+---
+
+```{=html}
+<style type="text/css">
+body{ /* Normal  */
+      font-size: 14px}
+td {  /* Table  */
+  font-size: 12px}
+h1.title {
+  font-size: 30px}
+h1 { /* Header 1 */
+  font-size: 24px}
+h2 { /* Header 2 */
+    font-size: 20px}
+code.r{ /* Code block */
+    font-size: 12px}
+</style>
+```
+N = 48 --\> n = 35. 12 subjects were excluded due to chance level behavior, defined as a mean absolute error of \> 75 degrees (where chance = 90) in location response.\
+1 subject was excluded from modeling due to too few trials left after removing incorrectly classified trials (do you expect a reward on this trial?) Mixture model functions are from: <https://github.com/eddjberry/precision-mixture-model>
+
+```{r, include=FALSE}
+#### load in all necessary packages:
+library('ggplot2')
+library('tidyr')
+library('dplyr')
+library('ez')
+library('lsr')
+library('psych')
+library('knitr')
+library('pander')
+library('BayesFactor')
+library('lme4')
+library('effects')
+library('car')
+library('nlme')
+library(broom.mixed)
+library(bayestestR)
+library(rstanarm)
+
+# functions
+se <- function(x) sqrt(var(x)/length(x))  #function to calculate SE
+ci <- function(x) (sqrt(var(x)/length(x)))*1.96  #function to calculate 95% confidence interval
+zscore <- function(x,data) (x - mean(data))/sd(data)  #allows values to be z scored
+
+themey <- theme(plot.title = element_text(hjust = 0.5, size=22), axis.line = element_line(colour = "black"), 
+          axis.text = element_text(size = 14), axis.title = element_text(size = 20), legend.title = element_blank(),legend.text = element_text(size = 18),axis.text.x = element_text(color="black"),
+      axis.ticks = element_line(color = "black"),axis.text.y = element_text(color="black"),
+          panel.background = element_blank(),
+          text = element_text(family="Helvetica"))
+```
+
+
+```{r}
+taskVer <- 'HRBP_MP-behavior'
+### define computer path
+myComp <- 'C:/---------'   # here is where you adjust the path
+### define all functions:
+source(paste(myComp,'mixture_model_functions.R',sep = "/"))   # here you need to source the functions
+
+### load in all behavioral data:
+myFile <- paste(myComp,'HRBP_trial_dataframe.csv',sep = "/")
+allData <- data.frame(read.csv(myFile, header = TRUE))
+allData[allData == 'NaN'] <- NA
+
+# excluding subs with >75 sd in precision
+fin_allData <- subset(allData, subj_excl == 0)
+
+```
+
+need to clear the errors of NAs and subset only correctly classified trials.
+
+```{r}
+# subset only correctly classified trials. 
+clean_locDat_n36 <- subset(fin_allData, cat_corr == 1)
+
+# --> participant 34 has too few remaining trials after removing incorrect classified trials 
+clean_locDat <- subset(clean_locDat_n36, sub != 34)
+# after revision: conducted outlier detection analysis (> 3 SD away from mean in each conditions for precision + success) -> 2 pps removed (sub-018, sub-003)
+#clean_locDat <- subset(clean_locDat, sub != 18)
+#clean_locDat <- subset(clean_locDat, sub != 3)
+
+subjects <- unique(allData$sub)
+print(paste('Full sample size collected =', length(subjects), 'subjects'))
+
+fin_subjects = unique(clean_locDat$sub)
+NSubjs = length(unique(clean_locDat$sub))
+print(paste('Final sample size to be fit to model =', NSubjs, 'subjects'))
+```
+
+
+# Model location error overall (aggreaged across conditions)
+
+Response - Study angle across all subjects plotted as density histograms. Fitting mixture model pdf (vonMises + uniform)
+
+```{r, fig.width=6,fig.height=2.5}
+# for modelling: need to remove row with NA in response error! (can be due to not responding to trial in mem test or responding with distance too far off circle)
+clean_locDat <- subset(clean_locDat, !is.na(response_pos) & !is.na(target_pos))
+
+### Fit mixture model to aggregate data (needs to be in radians):
+Loc <- JV10_fit(wrap(clean_locDat$response_pos/180*pi), wrap(clean_locDat$target_pos/180*pi))
+print(paste0("Location : % Correct = ", round(Loc$B$Pt, digits = 4)))
+print(paste0("      : Precision = ", round(Loc$B$K, digits = 4)))
+
+### now get best fitting PDFs:
+range = seq(from = -pi, to = pi, by = pi/180)
+# 1. Get von Mises pdf based on aggregate precision
+yLoc = vonmisespdf(range,0,Loc$B$K)
+# scale so area of distribution = proportion correct
+yLoc = yLoc * (Loc$B$Pt/(sum(yLoc)))
+
+# 2. add guess rate (uniform component)
+yLoc = data.frame(yLoc + (Loc$B$Pu/length(range)))
+colnames(yLoc)<- c("prob")
+yLoc$error <- seq(from = -180, to = 180, by = 1)
+# Threshold for memory 'success' (at least 50% chance that error fits von Mises), rounded to nearest multiple of 3 (my unique angles):
+LocT <-  max(abs(yLoc$error[yLoc$prob > (Loc$B$Pu/length(range)*2)]))
+LocT <- 3*round(LocT/3) 
+print(paste("Threshold for location memory success at 50% <= ", LocT, " degrees", sep = ""))
+
+# add accuracy columns to alldata based on model threshold:
+clean_locDat$LocationCorrect[clean_locDat$abs_minimum_error <= LocT] <- 1
+clean_locDat$LocationCorrect[clean_locDat$abs_minimum_error > LocT] <- 0
+
+# plot data with line at height of uniform distribution:
+p1 <- ggplot(clean_locDat, aes(x = minimum_error)) +
+    geom_histogram(bins = 61, color = 'white', fill = 'gray60', alpha = 0.4, aes(y=..density..), 
+                   position=position_dodge(1)) + 
+    geom_line(data = yLoc, aes(x = error, y = prob), color = '#FEC20C', linewidth=1.5) +
+    xlab("Error") + ylab("p(Error)") +
+    scale_y_continuous(limits = c(0,0.015), expand = c(0,0), breaks = seq(0,0.015,by = 0.005)) + 
+    scale_x_continuous(expand = c(0,0), breaks = seq(-180,180,by = 60)) + 
+    ggtitle("Location Errors")+
+    themey 
+p1
+#ggsave(paste(myComp,'HRBP_MP/stats/figures/behaviour/2_memory_precision/aggregate_Location_errors.pdf',sep = ""), plot = p1, dpi = 300, width = 3.5, height = 3)
+
+# save the new findata (Includes location-correct variable!)
+#write.csv(clean_locDat, file = paste(myComp,'HRBP_MP/stats/3_precision_modelling/clean_trial_data_plus_locationCorrect.csv', sep=""), row.names = FALSE)
+
+```
+
+
+
+# Model location errors per condition
+do the same as above but fit the model to the two conditions seperately: reward and neutral
+
+```{r}
+
+rewardData <- subset(clean_locDat, trial_type == 'csp')
+neutralData <- subset(clean_locDat, trial_type == 'csm')
+run_conds = list(rewardData, neutralData)
+
+yLoc_conditions <- data.frame()
+
+for (cond in run_conds) {
+
+  Loc <- JV10_fit(wrap(cond$response_pos/180*pi), wrap(cond$target_pos/180*pi))
+  print(paste0("Location ", cond$trial_type[1], ": % Correct = ", round(Loc$B$Pt, digits = 4)))
+  print(paste0("      : Precision = ", round(Loc$B$K, digits = 4)))
+  
+  ### now get best fitting PDFs:
+  range = seq(from = -pi, to = pi, by = pi/180)
+  # 1. Get von Mises pdf based on aggregate precision
+  yLoc = vonmisespdf(range,0,Loc$B$K)
+  # scale so area of distribution = proportion correct
+  yLoc = yLoc * (Loc$B$Pt/(sum(yLoc)))
+  
+  # 2. add guess rate (uniform component)
+  yLoc = data.frame(yLoc + (Loc$B$Pu/length(range)))
+  colnames(yLoc)<- c("prob")
+  yLoc$error <- seq(from = -180, to = 180, by = 1)
+  # Threshold for memory 'success' (at least 50% chance that error fits von Mises), rounded to nearest multiple of 3 (my unique angles):
+  LocT <-  max(abs(yLoc$error[yLoc$prob > (Loc$B$Pu/length(range)*2)]))
+  LocT <- 3*round(LocT/3) 
+  print(paste("Threshold for location memory success at 50% <= ", LocT, " degrees for ", cond$trial_type[1], sep = ""))
+  
+  # add on Color and Scene accuracy columns to alldata based on model threshold:
+  cond$LocationCorrect[cond$abs_minimum_error <= LocT] <- 1
+  cond$LocationCorrect[cond$abs_minimum_error > LocT] <- 0
+  
+  yLoc$reward_type <- ifelse(cond$trial_type[1] == "csp", "reward", "neutral")
+  
+  
+  yLoc_conditions <- rbind(yLoc_conditions, yLoc)
+}
+
+
+# plot data with line at height of uniform distribution:
+p2 <- ggplot(yLoc_conditions, aes(x = error, y = prob, color = reward_type)) + 
+  geom_line(linewidth = 0.5) +
+    xlab("Error") + ylab("p(Error)") +
+    scale_color_manual(values = c("#808080", "#006400")) +
+    #scale_color_manual(values = c("reward" = "#00FF00", "neutral" = "#808080"))
+    #scale_y_continuous(limits = c(0,0.015), expand = c(0,0), breaks = seq(0,0.015,by = 0.005)) + 
+    scale_x_continuous(expand = c(0,0), breaks = seq(-180,180,by = 60)) + 
+    ggtitle("Location Errors") +
+    themey+
+    theme(legend.position = "none")
+p2
+#ggsave(paste(myComp,'HRBP_MP/stats/figures/behaviour/2_memory_precision/conditions_Location_errors.pdf',sep = ""), plot = p2, dpi = 300, width = 3.5, height = 3)
+
+```
+
+# Fit subject-level: Mixture Model
+
+```{r, fig.width=5,fig.height=3}
+### Compute mixture model estimates by subject and feature
+mixture <- data.frame(matrix(0, nrow = NSubjs*2, ncol = 4))
+names(mixture) <- c("sub","condition", "pT","k")
+row <- 0
+for (idx in 1:length(fin_subjects)) {
+  
+    myData_reward <- subset(rewardData, sub == as.integer(fin_subjects[idx]))
+    row = row + 1
+    mixture$sub[row]   = myData_reward$sub[1]
+    mixture$condition[row] = 'reward'
+    curModel <- JV10_fit(wrap(myData_reward$response_pos/180*pi), wrap(myData_reward$target_pos/180*pi))
+    mixture$pT[row] <- curModel$B$Pt
+    mixture$k[row]  <- curModel$B$K
+    
+    myData_neutral <- subset(neutralData, sub == as.integer(fin_subjects[idx]))
+    row = row + 1
+    mixture$sub[row]   = myData_neutral$sub[1]
+    mixture$condition[row] = 'neutral'
+    curModel <- JV10_fit(wrap(myData_neutral$response_pos/180*pi), wrap(myData_neutral$target_pos/180*pi))
+    mixture$pT[row] <- curModel$B$Pt
+    mixture$k[row]  <- curModel$B$K
+  }#end of loop through subjects   
+
+mixture$sub <- as.factor(mixture$sub)
+mixture$condition <- as.factor(mixture$condition)
+
+```
+
+# Outlier check for control analysis: 2 subs = removed 
+
+```{r}
+threshold = 2.5
+check_outliers <- function(x, column_name, threshold) {
+  mean_x <- mean(x)
+  sd_x <- sd(x)
+  outside_sd <- x < (mean_x - threshold * sd_x) | x > (mean_x + threshold * sd_x)
+  if (any(outside_sd)) {
+    print(paste("Outliers in column", column_name, "for subjects:", mixture$sub[outside_2sd]))
+    return(any(outside_sd))
+    }
+  
+}
+# Apply the function to check outliers for each column
+outliers_pT <- check_outliers(mixture$pT, "pT")
+outliers_k <- check_outliers(mixture$k, "k")
+
+# Print the results
+if (!outliers_pT) {
+  cat("No outliers in pT.\n")
+}
+
+if (!outliers_k) {
+  cat("No outliers in k.\n")
+}
+```
+
+
+# Condition comparison: plots
+Make bar plots of the subject-level parameters pT and K - separately for the reward conditions
+
+```{r}
+# Memory Success (proportion correct)
+p1 <- ggplot(mixture, aes(x = condition, y = pT, color = condition, fill = condition)) +
+  stat_summary(fun.y = mean, geom = "bar", alpha = 0.8, position = position_dodge(1),color = "gray23", size = 0.5) +
+    stat_summary(fun.data = mean_se, geom = "errorbar", fun.args = list(mult = 1.96),
+              width = 0.2, color = "black", size = 1, position = position_dodge(3)) +
+  scale_fill_manual(values = c('#808080', '#107010')) +
+  scale_color_manual(values = c('#808080', '#107010')) +
+  geom_dotplot(aes(fill = NULL), binaxis = 'y', stackdir = 'center', alpha = 0.4, fill = "black", color = "black", position = position_jitter(0.05)) +
+  ggtitle("Memory Success") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 1.1)) +
+  themey +
+  theme(legend.position = "none")
+p1
+#ggsave(paste(myComp,'HRBP_MP/stats/figures/behaviour/2_memory_precision/conditions_Memory Success.pdf',sep = ""), plot = p1, dpi = 300, width = 2, height = 3)
+
+
+# Precision summary
+p2 <- ggplot(mixture, aes(x = condition, y = k, color = condition, fill = condition)) +
+  stat_summary(fun.y = mean, geom = "bar", alpha = 0.8, position = position_dodge(1),color = "gray23", size = 0.5) +
+  scale_fill_manual(values = c('#808080', '#107010')) +
+  scale_color_manual(values = c('#808080', '#107010')) +
+  geom_dotplot(aes(fill = NULL), binaxis = 'y', stackdir = 'center', alpha = 0.4, fill = "black", color = "black", position = position_jitter(0.05)) +
+  stat_summary(fun.data = mean_se, geom = "errorbar", fun.args = list(mult = 1.96),
+               width = 0.2, color = "black", size = 1, position = position_dodge(3)) +
+  ggtitle("Memory Precision") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 100)) +
+  themey +
+  theme(legend.position = "none")
+p2
+#ggsave(paste(myComp,'HRBP_MP/stats/figures/behaviour/2_memory_precision/conditions_Memory Precision.pdf',sep = ""), plot = p2, dpi = 300, width = 2, height = 3)
+```
+
+# Condition comparison: statistics 
+```{r}
+# run statistics on both memory parameters
+print('% successfully retrieved, stats and summary:')
+pT <- subset(mixture, select = -c(k)) %>%
+       spread(key = condition, value = pT)
+# Calculate the mean and standard error for columns 2 and 3
+mean_se_nums <- apply(pT[, c("neutral", "reward")], 2, function(x) c(mean = mean(x), se = sd(x) / sqrt(length(x))))
+print(mean_se_nums)
+pander(t.test(pT ~ condition, data=mixture, paired = TRUE))
+ttestBF(pT$reward, pT$neutral, paired = T)
+
+
+```
+
+```{r}
+print('location precision, stats and summary:')
+k <- subset(mixture, select = -c(pT)) %>%
+       spread(key = condition, value = k)
+mean_se_nums <- apply(k[, c("neutral", "reward")], 2, function(x) c(mean = mean(x), se = sd(x) / sqrt(length(x))))
+print(mean_se_nums)
+pander(t.test(k ~ condition, data=mixture, paired = TRUE))
+ttestBF(k$reward, k$neutral, paired = T)
+```
+
+Save the estimates as a csv
+
+```{r}
+# for saving data in csv:
+# Reshape the dataframe using tidyr
+long_pT <- pT %>%
+  pivot_longer(cols = c(neutral, reward), names_to = "trial_type", values_to = "pT")
+
+long_k <- k %>%
+  pivot_longer(cols = c(neutral, reward), names_to = "trial_type", values_to = "k")
+
+group_data <- merge.data.frame(long_pT,long_k,by=c('sub', 'trial_type')) %>%
+               sortFrame(sub)
+#write.csv(group_data, file = paste(myComp,'HRBP_MP/stats/3_precision_modelling/individual_estimates_pT_k.csv', sep=""), row.names = FALSE)
+
+```
+
+Finally Make average dataframe based on the full sample: to run some Bayes t-test on pupil variables
+
+```{r}
+
+clean_locDat_n36$sub <- as.factor(clean_locDat_n36$sub)
+clean_locDat_n36$trial_type <- as.factor(clean_locDat_n36$trial_type)
+
+# summarise variables of interest based on subject and trialtype 
+averaged_df_36 <- clean_locDat_n36 %>%
+  group_by(sub, trial_type) %>%
+  summarize(
+    preStim_bl = mean(preStim_bl,na.rm = TRUE),
+    choice_onset_event = mean(choice_onset_event, na.rm = TRUE),
+    anticipation = mean(anticipation, na.rm = TRUE),
+    start_anticipation = mean(start_anticipation, na.rm = TRUE),
+    end_anticipation = mean(end_anticipation, na.rm = TRUE),
+    TN_rt = mean(TN_rt, na.rm = TRUE)
+  )
+
+# rename trial type
+averaged_df_36 <- averaged_df_36 %>%
+  mutate(trial_type = ifelse(trial_type == 'csp', 'reward', 'neutral'))
+
+t_test_bl <- t.test(preStim_bl ~ trial_type, data = averaged_df_36, paired = TRUE)
+
+
+wide_df <- averaged_df_36 %>%
+  select(sub, trial_type, preStim_bl)
+wide_df <- spread(wide_df, key = trial_type, value = preStim_bl)
+ttestBF(wide_df$reward, wide_df$neutral, paired = T)
+
+# Output the results
+print(t_test_bl)
+```
+
+```{r}
+t_test <- t.test(choice_onset_event ~ trial_type, data = averaged_df_36, paired = TRUE)
+
+wide_df <- averaged_df_36 %>%
+  select(sub, trial_type, choice_onset_event)
+wide_df <- spread(wide_df, key = trial_type, value = choice_onset_event)
+ttestBF(wide_df$reward, wide_df$neutral, paired = T)
+
+# Output the results
+print(t_test)
+```
+
+```{r}
+t_test <- t.test(anticipation ~ trial_type, data = averaged_df_36, paired = TRUE)
+
+wide_df <- averaged_df_36 %>%
+  select(sub, trial_type, anticipation)
+wide_df <- spread(wide_df, key = trial_type, value = anticipation)
+ttestBF(wide_df$reward, wide_df$neutral, paired = T)
+
+# Output the results
+print(t_test)
+```
+
+Simulate some PDFs for an illustrative figure
+
+```{r}
+plot_PDF <- function(K, pT) {
+  range <- seq(from = -pi, to = pi, by = pi/180)
+  yLoc <- vonmisespdf(range, 0, K)
+  yLoc <- yLoc * (pT / sum(yLoc))
+  yLoc <- data.frame(prob = yLoc + ((1 - pT) / length(range)), error = seq(from = -180, to = 180, by = 1))
+  
+  g1 <- ggplot(yLoc, aes(x = error, y = prob)) +
+    geom_line(linewidth = 0.8) +
+    geom_area(fill = "blue", alpha = 0.3) +
+    scale_x_continuous(limits = c(-185, 185), breaks = c(-180, 0, 180)) +
+    scale_y_continuous(limits = c(0, 0.031), breaks = c(0, 0.01, 0.02, 0.03)) +
+    xlab("Error") +
+    ylab("Probability") +
+    ggtitle("") +
+    annotate("text", x = max(yLoc$error)-30, y = max(yLoc$prob), label = paste("K =", K)) +
+    annotate("text", x = max(yLoc$error)-30, y = max(yLoc$prob) - 0.003, label = paste("pT =", pT)) +
+    theme(panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank(),
+          panel.background = element_blank(),
+          axis.line = element_line(linewidth = 0.8, colour = "black"),
+          text = element_text(size = 16, colour = "black"),
+          strip.background = element_blank(),
+          axis.ticks.y = element_blank(),
+          axis.text.y = element_blank())
+  
+  #ggsave(paste(myComp,'HRBP_MP/stats/figures/behaviour/2_memory_precision/simulated_K_', as.character(K), '_pT_', as.character(pT),'.pdf',sep = ""), plot = g1, dpi = 300, width = 3.5, height = 3)
+
+}
+
+# Make plot
+# high success, high precision
+K <- 25
+pT <- 0.8
+plot_PDF(K, pT)
+# low success, high precision
+K <- 25
+pT <- 0.2
+plot_PDF(K, pT)
+# high success, low precision
+K <- 5
+pT <- 0.8
+plot_PDF(K, pT)
+# low success, low precision
+K <- 5
+pT <- 0.2
+plot_PDF(K, pT)
+
+
+```
+
+General settings preparing for Linear mixed-effects models
+NOTE: Memory performance: GLM and linear mixed-effects models (run on 35 participants!) Run lmers on two components: successful vs. unsuccesfully retreived trials (LocationCorrect)
+
+```{r}
+#Settings
+# center the continous varaible predictors
+clean_locDat$c_anticipation <- clean_locDat$anticipation - mean(clean_locDat$anticipation,  na.rm = TRUE)
+clean_locDat$c_TN_rt <- clean_locDat$TN_rt - mean(clean_locDat$TN_rt, na.rm = TRUE)
+clean_locDat$LocationCorrect <- as.factor(clean_locDat$LocationCorrect)
+clean_locDat$c_ITI_dur_tm1 <- clean_locDat$ITI_dur_tm1- mean(clean_locDat$ITI_dur_tm1, na.rm = TRUE)
+clean_locDat$c_preStim_bl <- clean_locDat$preStim_bl - mean(clean_locDat$preStim_bl, na.rm = TRUE)
+clean_locDat$c_choice_onset_event <- clean_locDat$choice_onset_event - mean(clean_locDat$choice_onset_event, na.rm = TRUE)
+clean_locDat$c_ITI_dur_tm1 <- clean_locDat$ITI_dur_tm1- mean(clean_locDat$ITI_dur_tm1, na.rm = TRUE)
+
+clean_locDat_n36$c_preStim_bl <- clean_locDat_n36$preStim_bl - mean(clean_locDat_n36$preStim_bl,  na.rm = TRUE)
+clean_locDat_n36$c_anticipation <- clean_locDat_n36$anticipation - mean(clean_locDat_n36$anticipation,  na.rm = TRUE)
+clean_locDat_n36$c_choice_onset_event <- clean_locDat_n36$choice_onset_event - mean(clean_locDat_n36$choice_onset_event,  na.rm = TRUE)
+clean_locDat_n36$c_ITI_dur_tm1 <- clean_locDat_n36$ITI_dur_tm1- mean(clean_locDat_n36$ITI_dur_tm1, na.rm = TRUE)
+```
+
+# Participant-level:
+
+```{r}
+# settings 
+clean_locDat$sub <- as.factor(clean_locDat$sub)
+clean_locDat$trial_type <- as.factor(clean_locDat$trial_type)
+
+# summarise variables of interest based on subject and trialtype 
+averaged_df <- clean_locDat %>%
+  group_by(sub, trial_type) %>%
+  summarize(
+    preStim_bl = mean(preStim_bl,na.rm = TRUE),
+    choice_onset_event = mean(choice_onset_event, na.rm = TRUE),
+    anticipation = mean(anticipation, na.rm = TRUE),
+    start_anticipation = mean(start_anticipation, na.rm = TRUE),
+    end_anticipation = mean(end_anticipation, na.rm = TRUE),
+    TN_rt = mean(TN_rt, na.rm = TRUE)
+  )
+
+# rename trial type
+averaged_df <- averaged_df %>%
+  mutate(trial_type = ifelse(trial_type == 'csp', 'reward', 'neutral'))
+
+
+#join the memory estimates with the pupil/RT data
+aveDat_all <- merge(averaged_df, group_data, by = c("sub", "trial_type"))
+
+aveDat_all$c_anticipation <- aveDat_all$anticipation - mean(aveDat_all$anticipation)
+aveDat_all$c_choice_onset_event <- aveDat_all$choice_onset_event - mean(aveDat_all$choice_onset_event)
+aveDat_all$c_start_anticipation <- aveDat_all$start_anticipation - mean(aveDat_all$start_anticipation)
+aveDat_all$c_end_anticipation <- aveDat_all$end_anticipation - mean(aveDat_all$end_anticipation)
+aveDat_all$c_preStim_bl <- aveDat_all$preStim_bl - mean(aveDat_all$preStim_bl)
+```
+
+
+
+## 1. Predict memory success with all pupil and condition predictors and Plot this main effect of anticipation in a simple linear regression
+
+```{r}
+
+pT_ant <- lme(pT ~  c_anticipation + factor(trial_type) + c_preStim_bl + c_choice_onset_event + c_anticipation * factor(trial_type) + c_preStim_bl * factor(trial_type) + c_choice_onset_event * factor(trial_type) , random = ~1 | sub, data = aveDat_all)
+summary(pT_ant)
+
+
+```
+
+Bayesian equivelant test:
+
+```{r}
+# Specify the Bayesian regression model
+fixed_prior <- cauchy(0, 1, autoscale = FALSE)
+pT_ant_Bayes <- stan_lmer(pT ~  c_anticipation + factor(trial_type) + c_anticipation * factor(trial_type) + c_preStim_bl + c_preStim_bl * factor(trial_type) + c_choice_onset_event + c_choice_onset_event * factor(trial_type) + (1 | sub), data = aveDat_all, prior = fixed_prior)
+
+testprint <- ( tidy(pT_ant_Bayes, effects="fixed", conf.int=T, conf.level=.95))
+print(testprint)
+
+rope <- rope_range(pT_ant_Bayes)
+bayesfactor_parameters(pT_ant_Bayes, null=rope)
+
+```
+
+just for plotting: collapse the trial_type
+
+```{r}
+collapsed_df <- aveDat_all %>%
+  group_by(sub) %>%
+  summarize(
+    across(c(c_preStim_bl, preStim_bl, c_choice_onset_event, anticipation, c_anticipation, start_anticipation, c_start_anticipation, end_anticipation, c_end_anticipation, TN_rt, pT, k), mean)
+  )
+
+ggp <- ggplot(collapsed_df, aes(anticipation, pT)) +           
+  geom_point(alpha = 0.4, fill = "coral", color = "coral", size = 3) +
+  stat_smooth(method = "lm",
+              formula = y ~ x,
+              geom = "smooth",
+              color = "coral", fill = "coral") +
+  themey +
+  theme(legend.position = "none")
+ggp
+#ggsave(paste(myComp,'HRBP_MP/stats/figures/behaviour/2_memory_precision/anticipation_Memory_Success_ppLevel.pdf',sep = ""), plot = ggp, dpi = 300, width = 2, height = 2.7)
+```
+
+## 2. Predict k with pupil and condition
+
+```{r}
+# k ~ anticipation
+k_ant <- lme(k ~  c_anticipation + factor(trial_type) + c_preStim_bl + c_choice_onset_event + c_anticipation * factor(trial_type) + c_preStim_bl * factor(trial_type) + c_choice_onset_event * factor(trial_type) , random = ~1 | sub, data = aveDat_all)
+summary(k_ant)
+```
+
+Bayesian equivalent test:
+
+```{r}
+# Specify the Bayesian regression model
+fixed_prior <- cauchy(0, 1, autoscale = FALSE)
+k_ant_Bayes <- stan_lmer(k ~  c_anticipation + factor(trial_type) + c_anticipation * factor(trial_type) + c_preStim_bl + c_preStim_bl * factor(trial_type) + c_choice_onset_event + c_choice_onset_event * factor(trial_type) + (1 | sub), data = aveDat_all, prior = fixed_prior)
+
+testprint <- ( tidy(k_ant_Bayes, effects="fixed", conf.int=T, conf.level=.95))
+print(testprint)
+
+rope <- rope_range(k_ant_Bayes)
+bayesfactor_parameters(k_ant_Bayes, null=rope)
+
+```
+
+plot the fixed effect of anticipation on k: collapsed across conditions
+```{r}
+ggp1 <- ggplot(collapsed_df, aes(anticipation, k)) +           
+  geom_point(alpha = 0.4, fill = "coral", color = "coral", size = 3) +
+  stat_smooth(method = "lm",
+              formula = y ~ x,
+              geom = "smooth",
+              color = "coral", fill = "coral") +
+  themey +
+  theme(legend.position = "none")
+ggp1
+#ggsave(paste(myComp,'HRBP_MP/stats/figures/behaviour/2_memory_precision/anticipation_Memory_precision_ppLevel.pdf',sep = ""), plot = ggp1, dpi = 300, width = 2, height = 2.7)
+```
+
+# Trial-level:
+
+## 3. TN_rt ~ preStim_bl + c_choice_onset_event + c_anticipation + trial_type + run
+
+```{r}
+fm1 <-lmerTest::lmer(TN_rt ~ c_preStim_bl + c_choice_onset_event + c_anticipation + factor(trial_type) + factor(run) + (c_preStim_bl + c_choice_onset_event + c_anticipation + factor(trial_type) + factor(run) | sub), clean_locDat_n36)
+summary(fm1)
+
+```
+
+Bayesian equivalent test
+
+```{r}
+
+fixed_prior <- cauchy(0, 1, autoscale = FALSE)
+fm1_Bayes <- stan_lmer(TN_rt ~ c_anticipation + c_preStim_bl + c_choice_onset_event + factor(trial_type) + factor(run) +  (c_preStim_bl + c_choice_onset_event + c_anticipation + factor(trial_type) + factor(run) | sub), clean_locDat_n36, prior = fixed_prior)
+
+testprint <- ( tidy(fm1_Bayes, effects="fixed", conf.int=T, conf.level=.95))
+print(testprint)
+
+rope <- rope_range(fm1_Bayes)
+bayesfactor_parameters(fm1_Bayes, null=rope)
+
+```
+
+## 3a Control TN_rt ~ preStim_bl + c_choice_onset_event + c_anticipation + trial_type + run + ITI-trial + trial_type-trial
+
+```{r}
+
+fm1_con <-lmerTest::lmer(TN_rt ~ c_preStim_bl + c_choice_onset_event + c_anticipation + factor(trial_type) + factor(run) + factor(trial_type_tm1) + c_ITI_dur_tm1 + (c_preStim_bl + c_choice_onset_event + c_anticipation + factor(trial_type) + factor(run) + factor(trial_type_tm1) + c_ITI_dur_tm1 | sub), clean_locDat_n36)
+summary(fm1_con)
+
+```
+
+
+## 4. LocationCorrect ~ c_anticipation (Generalized linear mixed-effects model (because of binary outcome variable) predicting memory success)
+
+```{r}
+fm2 <- lme4::glmer(LocationCorrect ~ c_anticipation  + c_preStim_bl + c_choice_onset_event + factor(trial_type) + factor(run) +  (c_anticipation  + c_preStim_bl + c_choice_onset_event + factor(trial_type) + factor(run) | sub), data = clean_locDat, family = binomial)
+summary(fm2)
+```
+
+```{r}
+# Specify the Bayesian regression model
+fm2_Bayes <- stan_glmer(LocationCorrect ~ c_anticipation  + c_preStim_bl + c_choice_onset_event + factor(trial_type) + factor(run) + (c_anticipation  + c_preStim_bl + c_choice_onset_event + factor(trial_type) + factor(run) | sub), data = clean_locDat, prior = fixed_prior, family = binomial("logit"))
+
+testprint <- ( tidy(fm2_Bayes, effects="fixed", conf.int=T, conf.level=.95))
+print(testprint)
+
+```
+
+(Not using in manuscript) Make a figure showing the estimated effects of the pupil variables no mem success
+
+```{r}
+# Extract fixed effects coefficients from the model
+fixed_effects <- fixef(fm2)
+
+std_err <- summ_fm2$coefficients[,2]
+
+# Create a data frame for plotting
+plot_data <- data.frame(
+  Predictor = names(fixed_effects),
+  Estimate = fixed_effects
+)
+
+# Filter for the predictors of interest and rename labels
+plot_data <- plot_data[plot_data$Predictor %in% c("c_anticipation", "c_preStim_bl", "c_choice_onset_event"), ]
+plot_data$Predictor <- factor(plot_data$Predictor, levels = c("c_preStim_bl", "c_choice_onset_event", "c_anticipation"))
+
+# Create a bar plot to visualize the effects
+g1<-ggplot(plot_data, aes(x = Predictor, y = Estimate, fill = Predictor)) +
+  geom_bar(stat = "identity", position = position_dodge(width = 0.8), width = 0.6, alpha = 0.7) +
+  scale_fill_manual(values = c("c_preStim_bl" = "red", "c_choice_onset_event" = "blue", "c_anticipation" = "green"))+
+  geom_errorbar(aes(ymin = Estimate, ymax = Estimate), position = position_dodge(width = 0.8), width = 0.2) +
+  labs(
+    title = "Effects of Pupil Size Predictors",
+    x = "Predictor",
+    y = "Estimated Effect",
+    caption = "Error bars represent standard errors"
+  ) +
+  themey
+```
+
+
+
+## 4a Control LocationCorrect ~ c_anticipation. Control Generalized linear mixed-effects model (because of binary outcome variable) predicting memory success
+
+```{r}
+fm2_con <- lme4::glmer(LocationCorrect ~ c_anticipation  + c_preStim_bl + c_choice_onset_event + factor(trial_type) + factor(run) + factor(trial_type_tm1) + c_ITI_dur_tm1 + (c_anticipation  + c_preStim_bl + c_choice_onset_event + factor(trial_type) + factor(run) + factor(trial_type_tm1) + c_ITI_dur_tm1| sub), data = clean_locDat, family = binomial)
+summary(fm2_con)
+
+```
+
+
+
+## 5. minimum_error ~ c_anticipation : lmer on memory precision: variable error within successfully retrieved trials (LocationCorrect == 1)
+
+```{r}
+
+# get only correctly recalled trials:
+retrieved_trials <- subset(clean_locDat, LocationCorrect == 1)
+
+fm3 <-lmerTest::lmer(minimum_error ~ c_anticipation + c_preStim_bl + c_choice_onset_event + factor(trial_type) + factor(run) +  (c_preStim_bl + c_choice_onset_event + c_anticipation + factor(trial_type) + factor(run) | sub), retrieved_trials)
+summary(fm3)
+
+```
+
+```{r}
+# Specify the Bayesian regression model
+fm3_Bayes <- stan_lmer(minimum_error ~ c_anticipation  + c_preStim_bl + c_choice_onset_event + factor(trial_type) + factor(run) + (c_anticipation  + c_preStim_bl + c_choice_onset_event + factor(trial_type) + factor(run) | sub), data = clean_locDat, prior = fixed_prior)
+
+testprint <- ( tidy(fm3_Bayes, effects="fixed", conf.int=T, conf.level=.95))
+print(testprint)
+
+rope <- rope_range(fm3_Bayes)
+bayesfactor_parameters(fm3_Bayes, null=rope)
+
+```
+
+## 5a Controld minimum_error ~ c_anticipation : Control lmer on memory precision: variable error within successfully retrieved trials (LocationCorrect == 1)
+
+```{r}
+fm3_con <-lmerTest::lmer(minimum_error ~ c_anticipation + c_preStim_bl + c_choice_onset_event + factor(trial_type) + factor(run) + factor(trial_type_tm1) + c_ITI_dur_tm1 + (c_preStim_bl + c_choice_onset_event + c_anticipation + factor(trial_type) + factor(run) + factor(trial_type_tm1) + c_ITI_dur_tm1| sub), retrieved_trials)
+summary(fm3_con)
+```
+
+
+
+
+
+
+Not included in manuscript: sanity checks
+Additional analysis looking at the previous rewarded trial - does it effect the next trial pupil baseline?
+
+```{r}
+fm4 <-lmerTest::lmer(preStim_bl ~ factor(trial_type_tm1) + (factor(trial_type_tm1)| sub), clean_locDat)
+summary(fm4)
+
+```
+
+Yes! --\> it affects the pupil events but no memory. why we check control analyses for each model (adding previous trial condition and ITI as additional predictors)
+
+```{r}
+
+fm5 <-lmerTest::lmer(c_choice_onset_event ~ factor(trial_type_tm1) + (factor(trial_type_tm1)| sub), clean_locDat)
+summary(fm5)
+
+```
+
+```{r}
+fm6 <- lme4::glmer(LocationCorrect ~ factor(trial_type_tm1) + (factor(trial_type_tm1) | sub), data = clean_locDat, family = binomial)
+summary(fm6)
+
+```
+
+```{r}
+retrieved_trials <- subset(clean_locDat, LocationCorrect == 1)
+fm6 <- lmerTest::lmer(minimum_error ~ factor(trial_type_tm1) + (factor(trial_type_tm1) | sub), data = retrieved_trials)
+summary(fm6)
+
+```
